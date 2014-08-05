@@ -75,7 +75,8 @@ body {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background: transparent; }
+  background: transparent; 
+  }
 
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
@@ -5104,7 +5105,8 @@ header {
 
 header .logo {
   text-align: center;
-  padding: 20px 0 0; }
+  padding: 20px 0 0;
+  background-color: #F2F2F2 }
 
 header .logo img {
   width: 85%; }
@@ -5277,3 +5279,18 @@ footer p.copyright {
 
   .social {
     clear: left; } }
+
+    .sponsor {        
+        text-align: center;
+    }
+
+.sponsor-img {
+     display: inline-block;
+    width: 200px;
+    margin: 5px;
+ 
+    }
+
+a {
+    color: #FFFF99;
+  }
