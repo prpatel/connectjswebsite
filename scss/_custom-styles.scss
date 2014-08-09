@@ -1,0 +1,400 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+   $blackColor: #221F1F;
+   $whiteColor: #FFF;
+   $gray1Color: #EEE;
+   $gray2Color: #DDD;
+   $gray3Color: #CCC;
+   $blueColor: #2BA6CB;
+   $redColor: #D83323;
+   $goldColor: #D89823;
+
+/* ==========================================================================
+   Mixins
+   ========================================================================== */
+/* ==========================================================================
+   Custom Styles
+   ========================================================================== */
+
+   .row {
+    /* ADJUST WIDTH OF PAGE */
+    max-width: 50em;
+   }
+
+   ::selection {
+    background: $goldColor;
+   }
+
+   body {
+    background-color: $whiteColor;
+    font-family: 'Gentium Book Basic', serif;
+    /*font-size: 1em;*/
+   }
+
+   img {
+    max-width: 100%;
+   }
+
+   .server-text {
+    color: $goldColor;
+   }
+
+   .web-text {
+    color: $blueColor;
+   }
+
+   .mobile-text {
+    color: $redColor;
+   }
+
+   .link {
+    color: $blackColor;
+    /*text-decoration: underline;*/
+    border-bottom: dotted 1px;
+   }
+
+   .link:hover {
+    color: $blackColor;
+   }
+
+   nav, .title-area .name h1 {
+    font-family: 'Open Sans', sans-serif;
+   }
+
+   .top-bar-section {
+    text-transform: uppercase;
+   }
+
+   header {
+    background-color: #F2F2F2;
+    /*background-color: #44C7F4;*/
+    background-image: url('../../a/i/hero-tile-gplaypattern.png');
+    background-repeat: repeat;
+    background-position: center;
+    text-align: center;
+   }
+
+   .header-wrapper {
+    /* This image will be displayed fullscreen */
+    /*background:url('../../a/i/hero-bg.png') no-repeat center center;*/
+
+    /* Ensure the html element always takes up the full height of the browser window */
+    /*min-height:100%;*/
+
+    /* The Magic */
+    /*background-size:cover;*/
+   }
+
+   header .logo {
+    text-align: center;
+    padding: 20px 0 0;
+   }
+
+   header .logo img {
+    width : 85%;
+   }
+
+   .blurb {
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+    color : $whiteColor;
+    /*color: $blackColor;
+    text-shadow: 1px 1px $whiteColor;*/
+    margin: 0 auto;
+   }
+
+   .eventdate {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: $blackColor;
+    color: $whiteColor;
+    text-align: center;
+    padding: 20px 0;
+   }
+
+   .hero-signup-form {
+    text-align: center;
+   }
+
+   .hero-signup-form form {
+    max-width: 500px;
+    width: 100%;
+    /*background: #666;*/
+    display: inline-block;
+    font-size: 0px;
+    padding: 0;
+    margin: 30px 0;
+  }
+
+  .hero-signup-form input {
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    font-size: 17px;
+    margin: 10px 0;
+    padding: 0 25px;
+  }
+
+  .ie .hero-signup-form input {
+    line-height: 40px;
+  }
+
+  .hero-signup-form input::-webkit-input-placeholder {
+    color: #888;
+  }
+
+  .hero-signup-form input:-moz-placeholder {
+    color: #888;
+  }
+
+  .hero-signup-form input:focus {
+    outline: none;
+  }
+
+  .hero-signup-form input.email:focus {
+    -webkit-animation: glow 800ms ease-out infinite alternate;
+    -moz-animation: glow 800ms ease-out infinite alternate;
+    -o-animation: glow 800ms ease-out infinite alternate;
+    -ms-animation: glow 800ms ease-out infinite alternate;
+    animation: glow 800ms ease-out infinite alternate;
+    /*background: $whiteColor;
+    border-color: #888;*/
+    /*box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;*/
+    /*color: #888;*/
+    outline: none;
+  }
+
+  .hero-signup-form input:focus::-webkit-input-placeholder { 
+    color: #888;
+  }
+
+  .hero-signup-form input:focus:-moz-placeholder {
+    color: #888;
+  }
+
+  .hero-signup-form .button {
+    width: 100%;
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    /*background: #F00;*/
+    border-radius: 5px;
+    color: $whiteColor;
+    display: block;
+    font-size: 17px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-transform: uppercase;
+  }
+
+  @-webkit-keyframes glow {
+      0% {
+      border-color: #888;
+      /*box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;*/
+      } 
+      100% {
+      border-color: $whiteColor;
+      /*box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;*/
+      }
+  }
+
+  @-moz-keyframes glow {
+      0% {
+      border-color: #888;
+      /*box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;*/
+      } 
+      100% {
+      border-color: $whiteColor;
+      /*box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;*/
+      }
+  }
+
+  @-o-keyframes glow {
+      0% {
+      border-color: #888;
+      /*box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;*/
+      } 
+      100% {
+      border-color: $whiteColor;
+      /*box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;*/
+      }
+  }
+
+  @-ms-keyframes glow {
+      0% {
+      border-color: #888;
+      /*box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;*/
+      } 
+      100% {
+      border-color: $whiteColor;
+      /*box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;*/
+      }
+  }
+
+  @keyframes glow {
+      0% {
+      border-color: #888;
+      /*box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;*/
+      } 
+      100% {
+      border-color: $whiteColor;
+      /*box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;*/
+      }
+  }
+
+   header .social {
+    text-align: center;
+   }
+
+   header .social a img {
+    width : 50px;
+    transition: all .2s ease;
+   }
+
+   header .social a img:hover {
+    -webkit-transform: scale(1.2);
+   }
+
+   #about, #schedule, #speakers, #location, #sponsors, #register, #tagline {
+    text-align: center;
+    padding: 50px 0;
+   }
+
+   #about {
+    background-color: $whiteColor;
+   }
+
+   #schedule {
+    background-color: $gray1Color;
+   }
+
+   #speakers {
+    background-color: $gray2Color;
+   }
+
+   #map, #location {
+    background-color: $gray3Color;
+   }
+
+   #register {
+    background-color: $gray2Color;
+   }
+
+   #sponsors {
+    background-color: $whiteColor;
+   }
+
+   #tagline {
+    background-color: #F2F2F2;
+   }
+
+   .section-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6em;
+    /*font-weight: normal;*/
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 15px;
+    text-shadow: 2.5px 2.5px 0 $whiteColor,
+        5px 5px 0 rgba(0,0,0,.2);
+   }
+
+   .button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+   }
+
+   #schedule ul, #speakers ul {
+    max-width: 800px;
+    margin-left: 8%;
+    margin-right: 8%;
+   }
+
+   #schedule ul li, #speakers ul li {
+    /*font-size: 1.3em;*/
+    text-align: left;
+    /*margin: 0 8%;*/
+    /*background-color: green;*/
+    /*display: block;*/
+   }
+
+   .panel {
+    text-align: center;
+   }
+
+   .sponsor-logo {
+    width: 200px;
+    background-color: #F2F2F2;
+    margin: 10px;
+   }
+
+   footer {
+    background-color: $blackColor;
+   }
+
+   footer .monogram {
+    width: 65px;
+    margin: 0 auto;
+    padding: 20px 0;
+   }
+
+   footer p.copyright {
+    text-transform: uppercase;
+    color: $whiteColor;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin : 0;
+   }
+
+/* ==========================================================================
+   Media Queries for Responsive Design
+   ========================================================================== */
+   @media only screen and (min-width: 600px){
+
+      header .logo img {
+        width : auto;
+      }
+
+      p {
+        font-size: 1.3em;
+      }
+
+      .hero-signup-form input {
+        width: 70%;
+        float: left;
+        border-radius: 5px 0 0 5px;
+        margin: 0;
+      }
+
+      .hero-signup-form .button {
+        width: 30%;
+        float: left;
+        border-radius: 0 5px 5px 0;
+      }
+
+      .social {
+        clear: left;
+      }
+
+      #about, #schedule, #speakers, #location, #sponsors, #register {
+        text-align: left;
+      }
+
+      #schedule ul, #speakers ul {
+        margin-left: 4%;
+        margin-right: 4%;
+      }
+
+      #schedule ul li, #speakers ul li {
+        font-size: 1.3em;
+      }
+   }
