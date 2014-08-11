@@ -5339,6 +5339,14 @@ header .social a img:hover {
   background-color: #F2F2F2;
   margin: 10px; }
 
+#codeOfConduct p, #codeOfConduct ul li {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.8em; }
+
+#codeOfConduct ul li {
+  margin-left: 15px;
+  margin-right: 15px; }
+
 footer {
   background-color: #221f1f; }
 
