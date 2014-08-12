@@ -331,9 +331,18 @@
    }
 
    .sponsor-logo {
-    width: 200px;
     background-color: #F2F2F2;
-    margin: 10px;
+   }
+
+   .sponsor-no-logo {
+    display: block;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F2F2F2;
+    color: $blackColor;
+    padding: 2em 0;
+    text-align: center;
+    text-transform: uppercase;
    }
 
    #codeOfConduct p, #codeOfConduct ul li {
@@ -368,7 +377,7 @@
 /* ==========================================================================
    Media Queries for Responsive Design
    ========================================================================== */
-   @media only screen and (min-width: 600px){
+   @media only screen and (min-width: 600px) {
 
       header .logo img {
         width : auto;

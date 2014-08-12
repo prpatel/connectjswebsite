@@ -5335,9 +5335,17 @@ header .social a img:hover {
   text-align: center; }
 
 .sponsor-logo {
-  width: 200px;
+  background-color: #F2F2F2; }
+
+.sponsor-no-logo {
+  display: block;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
   background-color: #F2F2F2;
-  margin: 10px; }
+  color: #221f1f;
+  padding: 2em 0;
+  text-align: center;
+  text-transform: uppercase; }
 
 #codeOfConduct p, #codeOfConduct ul li {
   font-family: "Courier New", Courier, monospace;
