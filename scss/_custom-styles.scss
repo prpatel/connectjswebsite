@@ -6,6 +6,7 @@
    $gray1Color: #EEE;
    $gray2Color: #DDD;
    $gray3Color: #CCC;
+   $tanColor: #EBE2D9;
    $blueColor: #2BA6CB;
    $redColor: #D83323;
    $goldColor: #D89823;
@@ -340,6 +341,7 @@
     font-family: 'Open Sans', sans-serif;
     background-color: #F2F2F2;
     color: $blackColor;
+    letter-spacing: 0.15em;
     padding: 2em 0;
     text-align: center;
     text-transform: uppercase;

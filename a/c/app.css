@@ -5343,6 +5343,7 @@ header .social a img:hover {
   font-family: 'Open Sans', sans-serif;
   background-color: #F2F2F2;
   color: #221f1f;
+  letter-spacing: 0.15em;
   padding: 2em 0;
   text-align: center;
   text-transform: uppercase; }
