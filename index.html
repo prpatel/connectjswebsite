@@ -7,15 +7,14 @@
   <meta name="viewport" content="width=device-width">
   <title>Connect JS :: October 17-18, 2014 :: Atlanta, GA</title>
 
-
-  <link rel="icon" type="image/ico" href="a/i/favicon.ico" />
+  
+  <link rel="icon" type="image/ico" href="a/i/favicon.ico" /> 
   <link rel="shortcut icon" href="a/i/favicon.ico" />
   <link rel="stylesheet" href="a/c/app.css">
   <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
 
   <script src="a/j/vendor/custom.modernizr.js"></script>
-
 </head>
 <body>
    <!--
@@ -23,7 +22,7 @@
    NAVIGATION BAR
    ==========================================================================
    -->
-
+ 
   <div class="fixed">
     <nav class="top-bar" data-topbar>
       <ul class="title-area">
@@ -36,14 +35,14 @@
         </li>
         <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
       </ul>
-
+   
       <section class="top-bar-section">
         <ul class="left">
           <li><a href="#about">About</a></li>
           <li class="divider"></li>
-          <li><a href="#schedule">Schedule</a></li>
-          <li class="divider"></li>
           <li><a href="#speakers">Speakers</a></li>
+          <li class="divider"></li>
+          <li><a href="#schedule">Schedule</a></li>
           <li class="divider"></li>
           <li><a href="#location">Location</a></li>
           <li class="divider"></li>
@@ -90,28 +89,13 @@
     <div class="row">
       <div class="large-12 columns">
         <h1 class="section-title">What is this?</h1>
-
+        
         <p>Connect.js is Atlanta's premier JavaScript conference! We will have experts presenting in three different JavaScript tracks: <span class="server-text">Server</span>, <span class="web-text">Web</span>, and <span class="mobile-text">Mobile</span>. Attendance is limited, so grab a ticket while supplies last!</p>
       </div>
     </div>
   </section>
 
-  <!--
-  ==========================================================================
-  SCHEDULE
-  ==========================================================================
-  -->
-
-  <section id="schedule">
-    <div class="row">
-      <div class="large-12 columns">
-        <h1 class="section-title">Schedule</h1>
-        <p>The conference will feature over 40 sessions on 2 days. Scroll down to the <a href="#speakers">Speakers section</a> to see the first batch of accepted sessions!</p>
-
-        <p><small>* Sessions and schedule are subject to change. Final schedule will be published mid September.</small></p>
-      </div>
-    </div>
-  </section>
+  <div class="row"><hr class="separator" /></div>
 
   <!--
   ==========================================================================
@@ -125,8 +109,9 @@
         <h1 class="section-title">Speakers</h1>
       </div>
 
+      <!--
       <div class="large-12 columns">
-        <p>The Call for Proposals is STILL OPEN UNTIL AUGUST 26th! Before submitting a talk, please review these guidelines. We look forward to reviewing your submissions!</p>
+        <p>The Call for Proposals is now open if you would like to submit a session! Before submitting a talk, please review these guidelines. We look forward to reviewing your submissions!</p>
 
         <ul>
           <li>JavaScript on the Server, Web, and Mobile/Titanium sessions are the focus of Connect.JS Conf. Select the track accordingly in the CFP system.</li>
@@ -138,414 +123,348 @@
 
         <a href="http://cfp.connect-js.com/en/CJS2014/cfp/session/new" class="button" target="_blank">Submit a Session</a>
       </div>
+      -->
+    </div>
 
-<div class="large-12 columns">
-  <h1 class="section-title">First batch of speakers, more to come!</h1>
-</div>
-
-      <div class="large-12 columns speaker-list">
-
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/97/large/s4hPnlke_400x400.jpeg?1409062590" class="speaker-image" />
+    <div class="row">
+      <div id="speaker-list" class="large-12 columns transitions-enabled large-centered clearfix">
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/aaron-saunders.png" class="speaker-image" />
           <span class="speaker-name">Aaron Saunders</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/aaronksaunders" target="_blank">aaronksaunders</a></span>
-          
-          <span class="speaker-name">Session: Backbone Sync Adapter for Cloud Services </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/aaronksaunders" target="_blank">@aaronksaunders</a></span>
+          <!-- <span class="speaker-talk">Session: Backbone Sync Adapter for Cloud Services </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/77/large/header.jpg?1408125304" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/admiral-ackbar.png" class="speaker-image" />
           <span class="speaker-name">Admiral Ackbar</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/Ackbar" target="_blank">Ackbar</a></span>
-          
-          <span class="speaker-name">Session: Avoiding Traps in Intergalactic Space Battles </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/Ackbar" target="_blank">@Ackbar</a></span>
+          <!-- <span class="speaker-talk">Session: Avoiding Traps in Intergalactic Space Battles </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/57/large/3272225.jpg?1409062130" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/andrew-zuercher.png" class="speaker-image" />
           <span class="speaker-name">Andrew Zuercher</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/Bahzuercher" target="_blank">Bahzuercher</a></span>
-          
-          <span class="speaker-name">Session: Moving from PHP to a Nodejs full stack CMS </span>
-          
-          <span class="speaker-name">Session: Using Promises to get out of callback misery </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/Bahzuercher" target="_blank">@bahzuercher</a></span>
+          <!-- <span class="speaker-talk">Session: Moving from PHP to a Nodejs full stack CMS </span> -->
+          <!-- <span class="speaker-talk">Session: Using Promises to get out of callback misery </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/24/large/CroppedSmile_BW.jpg?1407169364" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/brandy-porter.png" class="speaker-image" />
           <span class="speaker-name">Brandy Porter</span>
           <span class="speaker-twitter"><a href="http://twitter.com/@chickerbp" target="_blank">@chickerbp</a></span>
-          
-          <span class="speaker-name">Session: Make It Work </span>
-          
-</div>
+          <!-- <span class="speaker-talk">Session: Make It Work </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/23/large/me_stlucia_sm2.jpg?1407108929" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/brian-rinaldi.png" class="speaker-image" />
           <span class="speaker-name">Brian Rinaldi</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/remotesynth" target="_blank">remotesynth</a></span>
-          
-          <span class="speaker-name">Session: 8-bit Game Music with Web Audio API </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/remotesynth" target="_blank">@remotesynth</a></span>
+          <!-- <span class="speaker-talk">Session: 8-bit Game Music with Web Audio API </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/66/large/profile_400x400.jpg?1408123964" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/chris-aquino.png" class="speaker-image" />
           <span class="speaker-name">Chris Aquino</span>
           <span class="speaker-twitter"><a href="http://twitter.com/@radishmouse" target="_blank">@radishmouse</a></span>
-          
-          <span class="speaker-name">Session: Building Blocks for Isomorphic JavaScript Applications </span>
-          
-</div>
+          <!-- <span class="speaker-talk">Session: Building Blocks for Isomorphic JavaScript Applications </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/30/large/Chris-madhatter-BW.jpg?1408129182" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/chris-morrow.png" class="speaker-image" />
           <span class="speaker-name">Chris Morrow</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/_ChrisMorrow" target="_blank">_ChrisMorrow</a></span>
-          
-          <span class="speaker-name">Session: Debugging Javascript: From 0 to Hero </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/_ChrisMorrow" target="_blank">@_ChrisMorrow</a></span>
+          <!-- <span class="speaker-talk">Session: Debugging Javascript: From 0 to Hero </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/113/large/1869117.jpeg?1409065085" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/clint-ayres.png" class="speaker-image" />
           <span class="speaker-name">Clint Ayres</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/" target="_blank"></a></span>
-          
-          <span class="speaker-name">Session: Advanced React.js </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://github.com/jurassix" target="_blank">@jurassix</a></span>
+          <!-- <span class="speaker-talk">Session: Advanced React.js </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/33/large/Dennis_Hurst.jpg?1407328191" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/dennis-hurst.png" class="speaker-image" />
           <span class="speaker-name">Dennis Hurst</span>
           <span class="speaker-twitter"><a href="http://twitter.com/@dennishurst" target="_blank">@dennishurst</a></span>
-          
-          <span class="speaker-name">Session: Securing AngularJS applications </span>
-          
-</div>
+          <!-- <span class="speaker-talk">Session: Securing AngularJS applications </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/86/large/IMG_1580.JPG?1408928455" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/edwin-huertas.png" class="speaker-image" />
           <span class="speaker-name">Edwin Huertas</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/edwinRVA" target="_blank">edwinRVA</a></span>
-          
-          <span class="speaker-name">Session: Workshop: Building Native Mobile Apps with JavaScript using Titanium </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/edwinRVA" target="_blank">@edwinRVA</a></span>
+          <!-- <span class="speaker-talk">Session: Workshop: Building Native Mobile Apps with JavaScript using Titanium </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/76/large/headshot_2013.png?1408127992" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/erica-stanley.png" class="speaker-image" />
           <span class="speaker-name">Erica Stanley</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/ericastanley" target="_blank">ericastanley</a></span>
-          
-          <span class="speaker-name">Session: Developing for Wearable Devices </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/ericastanley" target="_blank">@ericastanley</a></span>
+          <!-- <span class="speaker-talk">Session: Developing for Wearable Devices </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/104/large/GestreeptOpWit.jpg?1408710992" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/fokke-zandbergen.png" class="speaker-image" />
           <span class="speaker-name">Fokke Zandbergen</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/FokkeZB" target="_blank">FokkeZB</a></span>
-          
-          <span class="speaker-name">Session: The Ultimate CLI-based Titanium Development Enviroment </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/FokkeZB" target="_blank">@FokkeZB</a></span>
+          <!-- <span class="speaker-talk">Session: The Ultimate CLI-based Titanium Development Enviroment </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/83/large/headshot.jpg?1408398755" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/gordon-hall.png" class="speaker-image" />
           <span class="speaker-name">Gordon Hall</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/sp0rkyd0rky" target="_blank">sp0rkyd0rky</a></span>
-          
-          <span class="speaker-name">Session: Decentralized Consensus and the Death of the Server </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/sp0rkyd0rky" target="_blank">@sp0rkyd0rky</a></span>
+          <!-- <span class="speaker-talk">Session: Decentralized Consensus and the Death of the Server </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/58/large/me.jpeg?1408495537" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/james-charlesworth.png" class="speaker-image" />
           <span class="speaker-name">James Charlesworth</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/_jcharlesworth" target="_blank">_jcharlesworth</a></span>
-          
-          <span class="speaker-name">Session: From SVG to WebGL </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/_jcharlesworth" target="_blank">@_jcharlesworth</a></span>
+          <!-- <span class="speaker-talk">Session: From SVG to WebGL </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/18/large/avatar.jpg?1406661852" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/jason-kneen.png" class="speaker-image" />
           <span class="speaker-name">Jason Kneen</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/jasonkneen" target="_blank">jasonkneen</a></span>
-          
-          <span class="speaker-name">Session: Adventures in Cross-platform </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/jasonkneen" target="_blank">@jasonkneen</a></span>
+          <!-- <span class="speaker-talk">Session: Adventures in Cross-platform </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/69/large/l2ydfcqci97v47d29zhh_400x400.jpeg?1408460078" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/jason-reece.png" class="speaker-image" />
           <span class="speaker-name">Jason Reece</span>
           <span class="speaker-twitter"><a href="http://twitter.com/@jason_reece" target="_blank">@jason_reece</a></span>
-          
-          <span class="speaker-name">Session: How OCD is your CSS? </span>
-          
-</div>
+          <!-- <span class="speaker-talk">Session: How OCD is your CSS? </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/102/large/JasonWeathersby380.JPG?1408657220" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/jason-weathersby.png" class="speaker-image" />
           <span class="speaker-name">Jason Weathersby</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/jasonweathersby" target="_blank">jasonweathersby</a></span>
-          
-          <span class="speaker-name">Session: HTML5 for the Mobile Web – Firefox OS </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/jasonweathersby" target="_blank">@jasonweathersby</a></span>
+          <!-- <span class="speaker-talk">Session: HTML5 for the Mobile Web – Firefox OS </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/95/large/33a5cbe.jpg?1409062624" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/john-gould.png" class="speaker-image" />
           <span class="speaker-name">John Gould</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/AvatarJohn" target="_blank">AvatarJohn</a></span>
-          
-          <span class="speaker-name">Session: Enterprise-Level 2D Game Development with Titanium and Platino </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/AvatarJohn" target="_blank">@AvatarJohn</a></span>
+          <!-- <span class="speaker-talk">Session: Enterprise-Level 2D Game Development with Titanium and Platino </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/72/large/avatar.png?1408041461" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/jonathan-martin.png" class="speaker-image" />
           <span class="speaker-name">Jonathan Martin</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/nybblr" target="_blank">nybblr</a></span>
-          
-          <span class="speaker-name">Session: Teach JS About Aesthetics with Machine Learning  </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/nybblr" target="_blank">@nybblr</a></span>
+          <!-- <span class="speaker-talk">Session: Teach JS About Aesthetics with Machine Learning  </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/80/large/ket-profile-tron-l2r_400x400.png?1408215918" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/ket-majmudar.png" class="speaker-image" />
           <span class="speaker-name">Ket Majmudar</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/ketan" target="_blank">ketan</a></span>
-          
-          <span class="speaker-name">Session: Implementing an awesome UI/UX strategy </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/ketan" target="_blank">@ketan</a></span>
+          <!-- <span class="speaker-talk">Session: Implementing an awesome UI/UX strategy </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/92/large/KVM_400x400.jpg?1408482226" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/kristin-marsicano.png" class="speaker-image" />
           <span class="speaker-name">Kristin Marsicano</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/kristinmars" target="_blank">kristinmars</a></span>
-          
-          <span class="speaker-name">Session: Make It Work </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/kristinmars" target="_blank">@kristinmars</a></span>
+          <!-- <span class="speaker-talk">Session: Make It Work </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/78/large/lance_gleason-5f15befb8e094690c3cc9264e4b58772.jpg?1408459894" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/lance-gleason.png" class="speaker-image" />
           <span class="speaker-name">Lance Gleason</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/lgleasain" target="_blank">lgleasain</a></span>
-          
-          <span class="speaker-name">Session: Using JS to prototype for the Internet of Things </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/lgleasain" target="_blank">@lgleasain</a></span>
+          <!-- <span class="speaker-talk">Session: Using JS to prototype for the Internet of Things </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/74/large/HBUxc7yt_400x400.jpeg?1408459974" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/michael-johnson.png" class="speaker-image" />
           <span class="speaker-name">Michael Johnson</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/bluekayaks" target="_blank">bluekayaks</a></span>
-          
-          <span class="speaker-name">Session: Angular Animation </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/bluekayaks" target="_blank">@bluekayaks</a></span>
+          <!-- <span class="speaker-talk">Session: Angular Animation </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/108/large/154912.jpg?1408980617" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/natalie-kozlowski.png" class="speaker-image" />
           <span class="speaker-name">Natalie Kozlowski</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/NRKozlowski" target="_blank">NRKozlowski</a></span>
-          
-          <span class="speaker-name">Session: How to interact with your front-end developer </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/NRKozlowski" target="_blank">@NRKozlowski</a></span>
+          <!-- <span class="speaker-talk">Session: How to interact with your front-end developer </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/55/large/2010-03-12-bw-450x450-orton.jpg?1407519894" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/patrick-mueller.png" class="speaker-image" />
           <span class="speaker-name">Patrick Mueller</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/pmuellr" target="_blank">pmuellr</a></span>
-          
-          <span class="speaker-name">Session: Node.js on a PaaS </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/pmuellr" target="_blank">@pmuellr</a></span>
+          <!-- <span class="speaker-talk">Session: Node.js on a PaaS </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/75/large/pxtrickAtThatConference_crop.jpg?1408119306" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/patrick-seda.png" class="speaker-image" />
           <span class="speaker-name">Patrick Seda</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/pxtrick" target="_blank">pxtrick</a></span>
-          
-          <span class="speaker-name">Session: Don't Fear the Hybrid </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/pxtrick" target="_blank">@pxtrick</a></span>
+          <!-- <span class="speaker-talk">Session: Don't Fear the Hybrid </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/21/large/Pete_Headshot.jpeg?1406933289" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/pete-hodgson.png" class="speaker-image" />
           <span class="speaker-name">Pete Hodgson</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/ph1" target="_blank">ph1</a></span>
-          
-          <span class="speaker-name">Session: Theory and Practice of Functional Reactive Javascript </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/ph1" target="_blank">@ph1</a></span>
+          <!-- <span class="speaker-talk">Session: Theory and Practice of Functional Reactive Javascript </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/7/large/profile-pic-09-11-2011.jpg?1406354223" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/pratik-patel.png" class="speaker-image" />
           <span class="speaker-name">Pratik Patel</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/prpatel" target="_blank">prpatel</a></span>
-          
-          <span class="speaker-name">Session: Workshop: JavaScript Developer's Toolchain  </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/prpatel" target="_blank">@prpatel</a></span>
+          <!-- <span class="speaker-talk">Session: Workshop: JavaScript Developer's Toolchain  </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/115/large/me2_400x400.png?1409064068" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/raju-gandhi.png" class="speaker-image" />
           <span class="speaker-name">Raju Gandhi</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/looselytyped" target="_blank">looselytyped</a></span>
-          
-          <span class="speaker-name">Session: Beginning Angular </span>
-          
-          <span class="speaker-name">Session: Advanced Angular </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/looselytyped" target="_blank">@looselytyped</a></span>
+          <!-- <span class="speaker-talk">Session: Beginning Angular </span> -->
+          <!-- <span class="speaker-talk">Session: Advanced Angular </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/48/large/51af324f24c415140bcef0b489e89dc1_400x400.png?1408460021" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/ricardo-alcocer.png" class="speaker-image" />
           <span class="speaker-name">Ricardo Alcocer</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/ricardoalcocer" target="_blank">ricardoalcocer</a></span>
-          
-          <span class="speaker-name">Session: Advanced cross-platform development </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/ricardoalcocer" target="_blank">@ricardoalcocer</a></span>
+          <!-- <span class="speaker-talk">Session: Advanced cross-platform development </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/67/large/SanjayGT.jpeg?1407881094" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/sanjay-bhatia.png" class="speaker-image" />
           <span class="speaker-name">Sanjay Bhatia</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/datasanj" target="_blank">datasanj</a></span>
-          
-          <span class="speaker-name">Session: Transforming Enterprises: Our visual journey from From traditional .NET to D3, Angular and Bootstrap </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/datasanj" target="_blank">@datasanj</a></span>
+          <!-- <span class="speaker-talk">Session: Transforming Enterprises: Our visual journey from From traditional .NET to D3, Angular and Bootstrap </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/98/large/Pic_ShubhraKar.jpg?1408578311" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/shubhra-kar.png" class="speaker-image" />
           <span class="speaker-name">Shubhra Kar</span>
           <span class="speaker-twitter"><a href="http://twitter.com/@shubhrakar" target="_blank">@shubhrakar</a></span>
-          
-          <span class="speaker-name">Session: Debugging, Profiling, Heap Dumping, Scaling and other fix-it techniques in Node.js </span>
-          
-          <span class="speaker-name">Session: Merging JS front end and back end </span>
-          
-</div>
+          <!-- <span class="speaker-talk">Session: Debugging, Profiling, Heap Dumping, Scaling and other fix-it techniques in Node.js </span> -->
+          <!-- <span class="speaker-talk">Session: Merging JS front end and back end </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/27/large/me.png?1407255208" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/stephen-thomas.png" class="speaker-image" />
           <span class="speaker-name">Stephen A Thomas</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/stephen_thomas" target="_blank">stephen_thomas</a></span>
-          
-          <span class="speaker-name">Session: Building JavaScript Visualizations Part 2 </span>
-          
-          <span class="speaker-name">Session: Building JavaScript Visualizations Part 1 </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/stephen_thomas" target="_blank">@stephen_thomas</a></span>
+          <!-- <span class="speaker-talk">Session: Building JavaScript Visualizations Part 2 </span> -->
+          <!-- <span class="speaker-talk">Session: Building JavaScript Visualizations Part 1 </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/81/large/n747527867_2041530_7318_400x400.jpg?1408461618" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/stephen-feather.png" class="speaker-image" />
           <span class="speaker-name">Stephen Feather</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/stephenfeather" target="_blank">stephenfeather</a></span>
-          
-          <span class="speaker-name">Session: Using Bluetooth (BLE) to Enhance User Engagement </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/stephenfeather" target="_blank">@stephenfeather</a></span>
+          <!-- <span class="speaker-talk">Session: Using Bluetooth (BLE) to Enhance User Engagement </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/96/large/tim_poulsen.jpg?1408554012" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/tim-poulsen.png" class="speaker-image" />
           <span class="speaker-name">Tim Poulsen</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/skypanther" target="_blank">skypanther</a></span>
-          
-          <span class="speaker-name">Session: Memory management in Titanium apps </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/skypanther" target="_blank">@skypanther</a></span>
+          <!-- <span class="speaker-talk">Session: Memory management in Titanium apps </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/12/large/avatar.jpg?1408126251" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/toby-ho.png" class="speaker-image" />
           <span class="speaker-name">Toby Ho</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/airportyh" target="_blank">airportyh</a></span>
-          
-          <span class="speaker-name">Session: Beginning Node.js Workshop </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/airportyh" target="_blank">@airportyh</a></span>
+          <!-- <span class="speaker-talk">Session: Beginning Node.js Workshop </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/112/large/face.jpg?1408989661" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/tony-lukasavage.png" class="speaker-image" />
           <span class="speaker-name">Tony Lukasavage</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/tonylukasavage" target="_blank">tonylukasavage</a></span>
-          
-          <span class="speaker-name">Session: OSS and Titanium </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/tonylukasavage" target="_blank">@tonylukasavage</a></span>
+          <!-- <span class="speaker-talk">Session: OSS and Titanium </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/68/large/12593df.jpg?1408124419" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/trevor-ward.png" class="speaker-image" />
           <span class="speaker-name">Trevor Ward</span>
           <span class="speaker-twitter"><a href="http://twitter.com/@thewarpedcoder" target="_blank">@thewarpedcoder</a></span>
-          
-          <span class="speaker-name">Session: Alloy vs CommonJS </span>
-          
-</div>
+          <!-- <span class="speaker-talk">Session: Alloy vs CommonJS </span> -->
+        </div>
 
-
-<div class="large-3 columns speaker-info">
-          <img src="http://cfp.connect-js.com/system/avatars/82/large/velocityspeakers-029-square.png?1408373201" class="speaker-image" />
+        <div class="speaker-box col2">
+          <img src="a/i/speakers/wesley-hales.png" class="speaker-image" />
           <span class="speaker-name">Wesley Hales</span>
-          <span class="speaker-twitter"><a href="http://twitter.com/wesleyhales" target="_blank">wesleyhales</a></span>
-          
-          <span class="speaker-name">Session: High Performance Websocket </span>
-          
-</div>
+          <span class="speaker-twitter"><a href="http://twitter.com/wesleyhales" target="_blank">@wesleyhales</a></span>
+          <!-- <span class="speaker-talk">Session: High Performance Websocket </span> -->
+        </div>
+      </div><!--/speaker-list -->  
+    </div>
+  </section>
 
-          
-          
+  <div class="row"><hr class="separator" /></div>
 
+  <!--
+  ==========================================================================
+  SCHEDULE
+  ==========================================================================
+  -->
+
+  <section id="schedule">
+    <div class="row">
+      <div class="large-12 columns">
+        <h1 class="section-title">Schedule</h1>
+        <p>The conference will feature a total of 40 sessions over 2 days. Here are some of the sessions:</p>
+
+        <ul>
+          <li>Backbone Sync Adapter for Cloud Services</li>
+          <li>Moving from PHP to a Nodejs full stack CMS</li>
+          <li>Using Promises to get out of callback misery</li>
+          <li>Make It Work</li>
+          <li>8-bit Game Music with Web Audio API</li>
+          <li>Building Blocks for Isomorphic JavaScript Applications</li>
+          <li>Debugging Javascript: From 0 to Hero</li>
+          <li>Advanced React.js</li>
+          <li>Securing AngularJS applications</li>
+          <li>Building Native Mobile Apps with JavaScript using Titanium</li>
+          <li>Developing for Wearable Devices</li>
+          <li>The Ultimate CLI-based Titanium Development Enviroment</li>
+          <li>Decentralized Consensus and the Death of the Server</li>
+          <li>From SVG to WebGL</li>
+          <li>Adventures in Cross-platform</li>
+          <li>How OCD is your CSS?</li>
+          <li>HTML5 for the Mobile Web – Firefox OS</li>
+          <li>Enterprise-Level 2D Game Development with Titanium and Platino</li>
+          <li>Teach JS About Aesthetics with Machine Learning</li>
+          <li>Implementing an awesome UI/UX strategy</li>
+          <li>Using JS to prototype for the Internet of Things</li>
+          <li>Angular Animation</li>
+          <li>How to interact with your front-end developer</li>
+          <li>Node.js on a PaaS</li>
+          <li>Don't Fear the Hybrid</li>
+          <li>Theory and Practice of Functional Reactive Javascript</li>
+          <li>JavaScript Developer's Toolchain</li>
+          <li>Advanced Angular</li>
+          <li>Advanced cross-platform development</li>
+          <li>Transforming Enterprises: Our visual journey from From traditional .NET to D3, Angular and Bootstrap</li>
+          <li>Debugging, Profiling, Heap Dumping, Scaling and other fix-it techniques in Node.js</li>
+          <li>Merging JS front end and back end</li>
+          <li>Building JavaScript Visualizations</li>
+          <li>Using Bluetooth (BLE) to Enhance User Engagement</li>
+          <li>Memory management in Titanium apps</li>
+          <li>Beginning Node.js Workshop</li>
+          <li>OSS and Titanium</li>
+          <li>Alloy vs CommonJS</li>
+          <li>High Performance Websocket</li>
+        </ul>
+
+        <p><small>* Sessions and schedule are subject to change. Final schedule will be published mid September.</small></p>
       </div>
     </div>
   </section>
@@ -593,6 +512,8 @@
     </div>
   </section>
 
+  <div class="row"><hr class="separator" /></div>
+
   <!--
   ==========================================================================
   REGISTRATION
@@ -603,8 +524,7 @@
     <div class="row">
       <div class="large-12 columns">
         <h1 class="section-title">Register Now!</h1>
-
-        <p>Prices will go up to the standard fee of $295 on August 30th! Get your tickets now!</p>
+        <p>Get your tickets now while supplies still last!</p>
       </div>
 
       <div class="large-12 columns">
@@ -614,6 +534,8 @@
       </div>
     </div>
   </section>
+
+  <div class="row"><hr class="separator" /></div>
 
   <!--
   ==========================================================================
@@ -637,7 +559,7 @@
       </div>
 
       <div class="large-12 columns">
-        <h1 class="section-title">Gold Sponsors</h1>
+        <h1 class="section-title sponsor-level">Gold Sponsors</h1>
 
         <ul class="small-block-grid-2 large-block-grid-4">
           <li><a href="http://meetup.com/atlantajavascript" target="_blank"><img src="a/i/sponsors/atl-js.png" class="sponsor-logo" /></a></li>
@@ -653,7 +575,7 @@
       </div>
 
       <div class="large-12 columns">
-        <h1 class="section-title">Silver Sponsors</h1>
+        <h1 class="section-title sponsor-level">Silver Sponsors</h1>
 
         <ul class="small-block-grid-2 large-block-grid-4">
           <li><a href="http://diversant.com" target="_blank"><span class="sponsor-no-logo">Diversant</span></a></li>
@@ -665,7 +587,7 @@
       </div> -->
 
       <div class="large-12 columns">
-        <h1 class="section-title">Happy Hour Sponsor</h1>
+        <h1 class="section-title sponsor-level">Happy Hour Sponsor</h1>
 
         <ul class="small-block-grid-1 large-block-grid-3">
           <li><a href="http://mandrill.com" target="_blank"><img src="a/i/sponsors/mandrill.png" class="sponsor-logo" /></a></li>
@@ -692,95 +614,95 @@
       </div>
     </div>
   </section>
-
-
+ 
+   
 <!--   <div class="row">
     <div class="large-12 columns" style="background-color:red">
       <img src="http://placehold.it/1600x600&text=Header">
     </div>
   </div> -->
-
-
-
-
+ 
+   
+ 
+ 
   <!-- <div class="row">
-
+ 
     <div class="large-3 panel columns">
       <img src="http://placehold.it/500x500&text=Image">
-
+ 
       <h4>Header</h4>
-
+ 
       <p>Fusce ullamcorper mauris in eros dignissim molestie posuere felis blandit. Aliquam erat volutpat. Mauris ultricies posuere vehicula. Sed sit amet posuere erat. Quisque in ipsum non augue euismod dapibus non et eros.</p><hr>
-
+ 
       <div class="row">
         <div class="large-4 columns">
         <a href="#" class="small button">Link</a>
         </div>
-
+ 
         <div class="large-4 columns">
         <a href="#" class="small button">Link</a>
         </div>
-
+ 
         <div class="large-4 columns">
         <a href="#" class="small button">Link</a>
         </div>
       </div>
     </div>
-
+ 
     <div class="large-9 columns">
       <div class="panel">
         <div class="row">
-
+ 
           <div class="large-3 columns">
             <img src="http://placehold.it/600x500&text=Thumbnail">
           </div>
-
+ 
           <div class="large-3 columns">
             <img src="http://placehold.it/600x500&text=Thumbnail">
           </div>
-
+ 
           <div class="large-3 columns">
             <img src="http://placehold.it/600x500&text=Thumbnail">
           </div>
-
+ 
           <div class="large-3 columns">
             <img src="http://placehold.it/600x500&text=Thumbnail">
           </div>
-
+ 
           <div class="large-3 columns">
             <img src="http://placehold.it/600x500&text=Thumbnail">
           </div>
-
+ 
           <div class="large-3 columns">
             <img src="http://placehold.it/600x500&text=Thumbnail">
           </div>
-
+ 
           <div class="large-3 columns">
             <img src="http://placehold.it/600x500&text=Thumbnail">
           </div>
-
+ 
           <div class="large-3 columns">
             <img src="http://placehold.it/600x500&text=Thumbnail">
           </div>
-
+ 
           <div class="large-3 columns">
             <img src="http://placehold.it/600x500&text=Thumbnail">
           </div>
-
+ 
           <div class="large-3 columns">
             <img src="http://placehold.it/600x500&text=Thumbnail">
           </div>
-
+ 
           <div class="large-3 columns">
             <img src="http://placehold.it/600x500&text=Thumbnail">
           </div>
-
+ 
           <div class="large-3 columns end">
             <img src="http://placehold.it/600x500&text=Thumbnail">
           </div>
         </div>
       </div>
-
+ 
       <div class="row">
         <div class="large-6 columns">
           <div class="panel">
@@ -789,7 +711,7 @@
             <a href="#" class="small button">Link</a>
           </div>
         </div>
-
+ 
         <div class="large-6 columns">
           <div class="panel">
             <h5>Subheader</h5>
@@ -799,7 +721,7 @@
         </div>
       </div>
     </div>
-
+ 
   </div> -->
 
   <!--
@@ -865,41 +787,86 @@
   '.js><\/script>')
   </script>
 
+  <script src="a/j/vendor/jquery.js"></script>
+  
   <script src="a/j/foundation/foundation.js"></script>
-
+  
   <script src="a/j/foundation/foundation.abide.js"></script>
-
+  
   <script src="a/j/foundation/foundation.alerts.js"></script>
-
+  
   <script src="a/j/foundation/foundation.clearing.js"></script>
-
+  
   <script src="a/j/foundation/foundation.cookie.js"></script>
-
+  
   <script src="a/j/foundation/foundation.dropdown.js"></script>
-
+  
   <script src="a/j/foundation/foundation.forms.js"></script>
-
+  
   <script src="a/j/foundation/foundation.interchange.js"></script>
-
+  
   <script src="a/j/foundation/foundation.joyride.js"></script>
-
+  
   <script src="a/j/foundation/foundation.magellan.js"></script>
-
+  
   <script src="a/j/foundation/foundation.orbit.js"></script>
-
+  
   <script src="a/j/foundation/foundation.placeholder.js"></script>
-
+  
   <script src="a/j/foundation/foundation.reveal.js"></script>
-
+  
   <script src="a/j/foundation/foundation.section.js"></script>
-
+  
   <script src="a/j/foundation/foundation.tooltips.js"></script>
-
+  
   <script src="a/j/foundation/foundation.topbar.js"></script>
-
-
+  
   <script>
     $(document).foundation();
+  </script>
+
+  <script src="a/j/jquery.masonry.js"></script>
+  <script src="a/j/jquery.smooth-scroll.js"></script>
+  <script src="a/j/jquery.ba-bbq.js"></script>
+
+  <script>
+      var $containter = $('#speaker-list');
+
+      $containter.imagesLoaded( function(){
+        $containter.masonry({
+          itemSelector: '.speaker-box',
+          isAnimated: !Modernizr.csstransitions,
+          isFitWidth: true
+        });  
+      });
+
+      /////////////////////////////////////////////
+
+      $(document).ready(function() {
+
+        $(document).on('click', 'a[href*="#"]', function() {
+          var slashedHash = '#/' + this.hash.slice(1);
+          if ( this.hash ) {
+
+            if ( slashedHash === location.hash ) {
+              $.smoothScroll({scrollTarget: this.hash});
+            } else {
+              $.bbq.pushState(slashedHash);
+            }
+
+            return false;
+          }
+        });
+
+        $(window).bind('hashchange', function(event) {
+          var tgt = location.hash.replace(/^#\/?/,'');
+          if ( document.getElementById(tgt) ) {
+            $.smoothScroll({scrollTarget: '#' + tgt});
+          }
+        });
+
+        $(window).trigger('hashchange');
+      });
   </script>
 </body>
 </html>

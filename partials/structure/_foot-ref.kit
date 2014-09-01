@@ -60,6 +60,8 @@
   ('__proto__' in {} ? 'a/j/vendor/zepto' : 'a/j/vendor/jquery') +
   '.js><\/script>')
   </script>
+
+  <script src="a/j/vendor/jquery.js"></script>
   
   <script src="a/j/foundation/foundation.js"></script>
   
@@ -93,9 +95,52 @@
   
   <script src="a/j/foundation/foundation.topbar.js"></script>
   
-  
   <script>
     $(document).foundation();
+  </script>
+
+  <script src="a/j/jquery.masonry.js"></script>
+  <script src="a/j/jquery.smooth-scroll.js"></script>
+  <script src="a/j/jquery.ba-bbq.js"></script>
+
+  <script>
+      var $containter = $('#speaker-list');
+
+      $containter.imagesLoaded( function(){
+        $containter.masonry({
+          itemSelector: '.speaker-box',
+          isAnimated: !Modernizr.csstransitions,
+          isFitWidth: true
+        });  
+      });
+
+      /////////////////////////////////////////////
+
+      $(document).ready(function() {
+
+        $(document).on('click', 'a[href*="#"]', function() {
+          var slashedHash = '#/' + this.hash.slice(1);
+          if ( this.hash ) {
+
+            if ( slashedHash === location.hash ) {
+              $.smoothScroll({scrollTarget: this.hash});
+            } else {
+              $.bbq.pushState(slashedHash);
+            }
+
+            return false;
+          }
+        });
+
+        $(window).bind('hashchange', function(event) {
+          var tgt = location.hash.replace(/^#\/?/,'');
+          if ( document.getElementById(tgt) ) {
+            $.smoothScroll({scrollTarget: '#' + tgt});
+          }
+        });
+
+        $(window).trigger('hashchange');
+      });
   </script>
 </body>
 </html>
