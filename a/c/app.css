@@ -5423,6 +5423,9 @@ footer p.copyright {
   text-align: center; }
 
 .speaker-name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
   margin-top: 0.8em; }
 
 .speaker-twitter {
