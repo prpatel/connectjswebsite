@@ -5328,18 +5328,6 @@ header .social a img:hover {
   font-weight: normal;
   text-transform: uppercase; }
 
-#schedule ul, #speakers ul {
-  max-width: 800px;
-  margin-left: 8%;
-  margin-right: 8%; }
-
-#schedule ul li, #speakers ul li {
-  /*font-size: 1.3em;*/
-  text-align: left;
-  /*margin: 0 8%;*/
-  /*background-color: green;*/
-  /*display: block;*/ }
-
 .panel {
   text-align: center;
   background-color: #f2f2f2; }
@@ -5384,6 +5372,40 @@ footer p.copyright {
   text-align: center;
   padding-bottom: 20px;
   margin: 0; }
+
+.time-slot {
+  background-color: #f2f2f2;
+  /*color: $grayColor;*/
+  padding: 5px 20px;
+  margin: 10px 0 5px;
+  /*border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: $grayColor;*/ }
+
+.talk-title {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold; }
+
+.talk-speaker {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 0.8em;
+  text-transform: uppercase; }
+
+.track-type {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+  text-transform: uppercase; }
+
+.mobile-track, .mobile-track:hover {
+  color: #d83323; }
+
+.server-track, .server-track:hover {
+  color: #d89823; }
+
+.web-track, .web-track:hover {
+  color: #2ba6cb; }
 
 /*** START MASONRY ***/
 #speaker-list {
@@ -5542,11 +5564,4 @@ footer p.copyright {
     text-align: left; }
 
   .speaker-box {
-    margin: 8px; }
-
-  #schedule ul, #speakers ul {
-    margin-left: 4%;
-    margin-right: 4%; }
-
-  #schedule ul li, #speakers ul li {
-    font-size: 1.3em; } }
+    margin: 8px; } }
