@@ -5457,7 +5457,7 @@ footer p.copyright {
 .speaker-image {
   width: 100%;
   border-style: solid;
-  border-width: 0.65em;
+  border-width: 0.5em;
   border-color: white;
   border-radius: 50%;
   /*-webkit-filter: grayscale(100%);
@@ -5536,6 +5536,55 @@ footer p.copyright {
   zoom: 1; }
 
 /*** END MASONRY ***/
+#speaker-bio {
+  /*background-color: black;*/ }
+
+.speaker-bio-image {
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto 2em; }
+
+.speaker-bio-name {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0.25em; }
+
+.speaker-bio-twitter {
+  display: block;
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 1em; }
+
+.speaker-bio-desc {
+  display: block;
+  line-height: 1.5em;
+  /*text-align: center;*/ }
+
+.speaker-bio-session-heading {
+  display: block;
+  /*font-family: 'Open Sans', sans-serif;*/
+  /*font-weight: bold;*/
+  text-transform: uppercase;
+  /*text-align: center;*/
+  margin-top: 1em; }
+
+.speaker-session-list li {
+  list-style-type: none;
+  margin-top: 1em; }
+
+.speaker-session-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold; }
+
+.speaker-session-time {
+  display: block;
+  font-family: 'Gentium Book Basic', serif;
+  font-weight: normal; }
+
 /* ==========================================================================
    Media Queries for Responsive Design
    ========================================================================== */
@@ -5565,3 +5614,17 @@ footer p.copyright {
 
   .speaker-box {
     margin: 8px; } }
+@media only screen and (min-width: 900px) {
+  .speaker-bio-image {
+    float: left;
+    max-width: 25%;
+    margin: 0;
+    visibility: visible; }
+
+  .speaker-bio-wrapper {
+    float: left;
+    max-width: 70%;
+    margin-left: 5%; }
+
+  .speaker-bio-name, .speaker-bio-twitter {
+    text-align: left; } }
