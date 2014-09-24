@@ -21,7 +21,7 @@
    }
 
    ::selection {
-    background: $goldColor;
+    background: #FF0;
    }
 
    body {
@@ -375,19 +375,29 @@
    }
 
    .time-slot {
-    background-color: $grayColor;
-    /*color: $grayColor;*/
-    padding: 5px 20px;
-    margin: 10px 0 5px;
-    /*border-bottom: solid;
+    padding: 40px 0;
+    margin: 10px 0;
+    text-align: center;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: $grayColor;
+    border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-bottom-color: $grayColor;*/
+    border-bottom-color: $grayColor;
+   }
+
+   .session-block .panel {
+    text-align: left;
+    margin: 0;
    }
 
    .talk-title {
     display: block;
     font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
     font-weight: bold;
+    line-height: 1.4em;
+    margin-bottom: 5px;
    }
 
    .talk-speaker {

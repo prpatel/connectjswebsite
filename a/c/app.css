@@ -5083,7 +5083,7 @@ a.th {
   /*max-width: 50em;*/ }
 
 ::selection {
-  background: #d89823; }
+  background: #FF0; }
 
 body {
   background-color: white;
@@ -5374,18 +5374,27 @@ footer p.copyright {
   margin: 0; }
 
 .time-slot {
-  background-color: #f2f2f2;
-  /*color: $grayColor;*/
-  padding: 5px 20px;
-  margin: 10px 0 5px;
-  /*border-bottom: solid;
+  padding: 40px 0;
+  margin: 10px 0;
+  text-align: center;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #f2f2f2;
+  border-bottom-style: solid;
   border-bottom-width: 1px;
-  border-bottom-color: $grayColor;*/ }
+  border-bottom-color: #f2f2f2; }
+
+.session-block .panel {
+  text-align: left;
+  margin: 0; }
 
 .talk-title {
   display: block;
   font-family: 'Open Sans', sans-serif;
-  font-weight: bold; }
+  font-size: 0.9em;
+  font-weight: bold;
+  line-height: 1.4em;
+  margin-bottom: 5px; }
 
 .talk-speaker {
   font-family: 'Open Sans', sans-serif;
