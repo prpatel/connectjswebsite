@@ -5460,8 +5460,7 @@ footer p.copyright {
   margin-top: 0.8em; }
 
 .speaker-twitter {
-  margin-top: 0.25em;
-  margin-bottom: 1.5em; }
+  margin-top: 0.25em; }
 
 .speaker-image {
   width: 100%;
@@ -5593,6 +5592,10 @@ footer p.copyright {
   display: block;
   font-family: 'Gentium Book Basic', serif;
   font-weight: normal; }
+
+.speaker-session-desc {
+  display: block;
+  margin-top: 1em; }
 
 /* ==========================================================================
    Media Queries for Responsive Design

@@ -471,7 +471,6 @@
 
    .speaker-twitter {
     margin-top: 0.25em;
-    margin-bottom: 1.5em;
    }
 
    .speaker-image {
@@ -591,6 +590,11 @@
     display: block;
     font-family: 'Gentium Book Basic', serif;
     font-weight: normal;
+  }
+
+  .speaker-session-desc {
+    display: block;
+    margin-top: 1em;
   }
 
 /* ==========================================================================
