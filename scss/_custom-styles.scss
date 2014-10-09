@@ -60,6 +60,10 @@
     color: $redColor;
    }
 
+   del {
+    color: $grayColor;
+   }
+
    .link {
     color: $blackColor;
     /*text-decoration: underline;*/
@@ -487,7 +491,7 @@
    }
 
    .speaker-image:hover {
-    border-color: $goldColor;
+    border-color: #EEE;
    }
 
   #speaker-bio {

@@ -5102,6 +5102,9 @@ img {
 .mobile-text {
   color: #d83323; }
 
+del {
+  color: #f2f2f2; }
+
 .link {
   color: #221f1f;
   /*text-decoration: underline;*/
@@ -5468,7 +5471,7 @@ footer p.copyright {
   transition: all 0.2s ease; }
 
 .speaker-image:hover {
-  border-color: #d89823; }
+  border-color: #EEE; }
 
 #speaker-bio {
   /*background-color: black;*/ }
