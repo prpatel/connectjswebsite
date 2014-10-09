@@ -5284,10 +5284,16 @@ header .social {
 
 header .social a img {
   width: 50px;
-  transition: all .2s ease; }
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
 
 header .social a img:hover {
-  -webkit-transform: scale(1.2); }
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2); }
 
 #about, #schedule, #speakers, #location, #sponsors, #register, #tagline {
   text-align: center;
@@ -5348,6 +5354,15 @@ header .social a img:hover {
   padding: 2em 0;
   text-align: center;
   text-transform: uppercase; }
+
+.sponsor-logo, .sponsor-no-logo {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+.sponsor-logo:hover, .sponsor-no-logo:hover {
+  background-color: white; }
 
 #privacyPolicy p, #codeOfConduct p, #codeOfConduct ul li {
   font-family: "Courier New", Courier, monospace;
@@ -5416,38 +5431,11 @@ footer p.copyright {
 .web-track, .web-track:hover {
   color: #2ba6cb; }
 
-/*** START MASONRY ***/
 #speaker-list {
-  float: none;
-  /*background: red;*/
-  padding: 0;
-  margin: 0 auto;
-  margin-top: 20px;
-  /*margin-bottom: 30px;*/
-  /* optional */
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  /* content-box is NEEDED. if border-box is enabled
-     then it when Masonry calculates the height and width
-     of the container it counts incorrectly and the result
-     images running to the edge of the container on the right
-     and bottom sides. Only apply content-box to the container. */
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box; }
+  margin-top: 2em; }
 
-.speaker-box {
-  margin: 5px;
-  float: left;
-  /* optional */
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px; }
-
-.speaker-box img {
-  display: block;
-  width: 100%; }
+#speaker-list li {
+  margin-bottom: 1em; }
 
 .speaker-name, .speaker-twitter {
   display: block;
@@ -5457,10 +5445,11 @@ footer p.copyright {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 0.8em; }
+  margin-top: 0.8em;
+  line-height: 1.1em; }
 
 .speaker-twitter {
-  margin-top: 0.25em; }
+  /*margin-top: 0.25em;*/ }
 
 .speaker-image {
   width: 100%;
@@ -5473,77 +5462,14 @@ footer p.copyright {
   filter: grayscale(100%);
   filter: gray;
   filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");*/
-  transition: border-color 0.5s ease; }
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
 
 .speaker-image:hover {
   border-color: #d89823; }
 
-/* unfortunately masonry needs hard pxs for images */
-.col1 {
-  width: 80px; }
-
-.col2 {
-  width: 180px; }
-
-.col3 {
-  width: 280px; }
-
-.col4 {
-  width: 380px; }
-
-.col5 {
-  width: 480px; }
-
-.col1 img {
-  max-width: 80px; }
-
-.col2 img {
-  max-width: 180px; }
-
-.col3 img {
-  max-width: 280px; }
-
-.col4 img {
-  max-width: 380px; }
-
-.col5 img {
-  max-width: 480px; }
-
-/* animations for the transition/reordering */
-.transitions-enabled.masonry,
-.transitions-enabled.masonry .masonry-brick {
-  -webkit-transition-duration: 0.7s;
-  -moz-transition-duration: 0.7s;
-  -ms-transition-duration: 0.7s;
-  -o-transition-duration: 0.7s;
-  transition-duration: 0.7s; }
-
-.transitions-enabled.masonry {
-  -webkit-transition-property: height, width;
-  -moz-transition-property: height, width;
-  -ms-transition-property: height, width;
-  -o-transition-property: height, width;
-  transition-property: height, width; }
-
-.transitions-enabled.masonry .masonry-brick {
-  -webkit-transition-property: left, right, top;
-  -moz-transition-property: left, right, top;
-  -ms-transition-property: left, right, top;
-  -o-transition-property: left, right, top;
-  transition-property: left, right, top; }
-
-/**** Clearfix ****/
-.clearfix:before, .clearfix:after {
-  content: "";
-  display: table; }
-
-.clearfix:after {
-  clear: both; }
-
-.clearfix {
-  zoom: 1; }
-
-/*** END MASONRY ***/
 #speaker-bio {
   /*background-color: black;*/ }
 
