@@ -44,6 +44,10 @@
     /*font-size: 1em;*/
    }
 
+   p, h1 {
+    margin: 0;
+   }
+
    img {
     max-width: 100%;
    }
@@ -84,11 +88,14 @@
     background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
    }
 
-   nav, .title-area .name h1 {
+   nav, .title-area .name h1 a {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
    }
 
-   .top-bar-section {
+   .top-bar-section ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
    }
 
@@ -114,7 +121,7 @@
 
    header .logo {
     text-align: center;
-    padding: 20px 0 0;
+    padding: 20px 0 30px;
    }
 
    header .logo img {
@@ -135,11 +142,12 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
     font-weight: bold;
+    font-style: italic;
     text-transform: uppercase;
     background-color: $blackColor;
     color: $whiteColor;
     text-align: center;
-    padding: 30px 0;
+    padding: 1.5em 0;
    }
 
    .hero-signup-form {
@@ -281,6 +289,7 @@
 
    header .social a img {
     width : 50px;
+    margin-bottom: 30px;
     @include transition;
    }
 
@@ -290,7 +299,7 @@
 
    #about, #schedule, #speakers, #location, #sponsors, #register, #tagline {
     text-align: center;
-    padding: 50px 0;
+    padding: 4em 0;
    }
 
    #about {
@@ -323,8 +332,18 @@
 
    .section-title {
     font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 15px;
+   }
+
+   .ending-quote {
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.6em;
-    /*font-weight: normal;*/
+    font-weight: 700;
+    line-height: 1.2em;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin-bottom: 15px;
@@ -374,6 +393,7 @@
    #privacyPolicy p, #codeOfConduct p, #codeOfConduct ul li {
     font-family: "Courier New", Courier, monospace;
     font-size: 0.8em;
+    margin: 10px auto;
    }
 
    #codeOfConduct ul li {
@@ -536,8 +556,14 @@
     margin-top: 1em;
   }
 
-  .speaker-session-list li {
+  ul, ol { overflow: auto; }
+
+  ul.speaker-session-list {
     list-style-type: none;
+    margin-left: 0;
+  }
+
+  ul.speaker-session-list li {
     margin-top: 1em;
   }
 
@@ -588,7 +614,7 @@
       }
 
       #about, #schedule, #speakers, #location, #sponsors, #register {
-        text-align: left;
+        /*text-align: left;*/
       }
 
       .speaker-box {
