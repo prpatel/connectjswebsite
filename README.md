@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Start Bootstrap](http://startbootstrap.com/) - [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/)
 
 [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.
@@ -24,3 +25,34 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 ## Copyright and License
 
 Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-stylish-portfolio/blob/gh-pages/LICENSE) license.
+=======
+# Foundation Compass Template
+
+The easiest way to get started with Foundation + Compass.
+
+## Requirements
+
+  * Ruby 1.9+
+  * [Node.js](http://nodejs.org)
+  * [compass](http://compass-style.org/): `gem install compass`
+  * [bower](http://bower.io): `npm install bower -g`
+
+## Quickstart
+
+  * [Download this starter compass project and unzip it](https://github.com/zurb/foundation-compass-template/archive/master.zip)
+  * Run `bower install` to install the latest version of Foundation
+  
+Then when you're working on your project, just run the following command:
+
+```bash
+bundle exec compass watch
+```
+
+## Upgrading
+
+If you'd like to upgrade to a newer version of Foundation down the road just run:
+
+```bash
+bower update
+```
+>>>>>>> 2730658688be5cb6a98a9e8de463da9c279de4d1
