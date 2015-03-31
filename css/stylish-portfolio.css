@@ -163,8 +163,7 @@ hr.small {
 }
 
 .logo-top {
-    position: inherit;
-    vertical-align: top; 
+    max-width: 100%;    
 }
 
 /* About */
@@ -230,6 +229,7 @@ hr.small {
 .map {
     position: relative;
     display: block;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -245,7 +245,7 @@ footer {
     padding: 100px 0;
 }
 
-.logo-center{
+.speaker-center{
   border:inherit 8px #000000;
   -moz-border-radius-topleft: 75px;
   -moz-border-radius-topright:75px;
