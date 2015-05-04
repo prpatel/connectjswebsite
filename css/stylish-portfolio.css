@@ -17,9 +17,13 @@ body {
 }
 
 .text-vertical-center {
-    display: table-cell;
+   
+padding: 50px;
     text-align: center;
-    vertical-align: top;
+    z-index: 2;
+    position: relative;
+    
+  
 }
 
 .text-vertical-center h1 {
@@ -148,7 +152,7 @@ hr.small {
     margin: 5px 5px 0 0;
 }
 
-/* Header */
+/* Header 
 
 .header {
     display: table;
@@ -162,14 +166,39 @@ hr.small {
     -o-background-size: cover;
 }
 
-.logo-top {
-    max-width: 100%;    
+*/
+
+.header {
+    position: relative;
+   
+    overflow: hidden;
+    height: 100%;
 }
 
-.logo-trans {
-        background: rgb(100, 100, 100) transparent;
-    background: rgba(200, 200, 200, 0.6);
+.header:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: .6;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
+
+.logo-top {
+    max-width: 100%
+}
+
 /* About */
 
 .about {
