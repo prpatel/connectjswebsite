@@ -229,6 +229,9 @@ hr.small {
     margin-bottom: 30px;
 }
 
+.speaker-tag {
+    height: 30px
+}
 /* Callout */
 
 .callout {
