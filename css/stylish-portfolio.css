@@ -84,7 +84,7 @@ hr.small {
 /* Side Menu */
 
 #sidebar-wrapper {
-    z-index: 1000;
+    z-index: 3;
     position: fixed;
     right: 0;
     width: 250px;
@@ -100,6 +100,7 @@ hr.small {
 }
 
 .sidebar-nav {
+    z-index: 1000;
     position: absolute;
     top: 0;
     width: 250px;
@@ -146,7 +147,7 @@ hr.small {
 }
 
 #menu-toggle {
-    z-index: 1;
+    z-index: 3;
     position: fixed;
     top: 0;
     right: 0;
@@ -184,7 +185,6 @@ hr.small {
 
 .header {
     position: relative;
-   
     overflow: hidden;
     height: 100%;
 }
