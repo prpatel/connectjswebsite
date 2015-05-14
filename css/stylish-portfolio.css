@@ -53,6 +53,7 @@ padding: 50px;
     border-radius: 0;
     color: #fff;
     background-color: rgba(0,0,0,0.4);
+    font-size: 2em;
 }
 
 .btn-dark:hover,
@@ -295,6 +296,10 @@ footer {
     padding: 100px 0;
 }
 
+.cfp-link {
+    background-color: rgba(255,255,255,0.8);
+}
+
 .speaker-center{
   border:inherit 8px #000000;
   -moz-border-radius-topleft: 75px;
@@ -309,4 +314,19 @@ footer {
   border-top-right-radius:75px;
   border-bottom-left-radius:75px;
   border-bottom-right-radius:75px;
+}
+
+.list-style {
+    font-size: 1.5em
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+    margin: 20px
 }
