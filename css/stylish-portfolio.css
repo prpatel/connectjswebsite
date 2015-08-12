@@ -202,6 +202,14 @@ hr.small {
   width: 100%;
 }
 
+.register-link {
+  background-color: white;
+  width: 300px;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header {
     position: relative;
     overflow: hidden;
@@ -221,7 +229,7 @@ hr.small {
 }
 
 body {
-   background: url(../img/bg.jpg);
+   background: url(../img/atlanta-city-night.jpg);
     background-repeat: no-repeat;
     background-blend-mode: color-dodge;
     background-position: 50% 0;
@@ -396,6 +404,14 @@ input[type=checkbox]
     margin: 20px
 }
 
-.btn-primary {
+.btn-primary-300 {
     height: 300px;
+}
+
+pre {
+    white-space: pre-wrap;       /* CSS 3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
