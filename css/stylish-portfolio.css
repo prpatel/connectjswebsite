@@ -405,3 +405,26 @@ pre {
   white-space: pre-wrap;
   word-break: normal;
 }
+
+.row-header {
+    
+}
+
+.schedule-row {
+    background-color: black
+}
+
+.schedule-day {
+   color: black;
+}
+
+.schedule-odd {
+    color: black;
+    font-size: 1.5em
+        
+}
+
+.schedule-even {
+    color: black;
+    font-size: 1.5em
+}
