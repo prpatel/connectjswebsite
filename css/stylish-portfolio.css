@@ -203,7 +203,7 @@ hr.small {
 }
 
 .register-link {
-  background-color: antiquewhite;
+  background-color: firebrick;
     color: white;
   width: 93%;
 display: block;
@@ -211,8 +211,16 @@ display: block;
   margin-right: auto;
     -moz-border-radius: 50px;
 border-radius: 50px;
-     text-align: center;
+     text-align: center;   
 }
+
+.register-link a:link {
+    color: white
+}
+.register-link a:visited {
+    color: white
+}
+ 
 
 .header {
     position: relative;
