@@ -203,7 +203,8 @@ hr.small {
 }
 
 .register-link {
-  background-color: lawngreen;
+  background-color: antiquewhite;
+    color: white;
   width: 93%;
 display: block;
   margin-left: auto;
