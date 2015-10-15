@@ -1,4 +1,4 @@
-[ '2015-10-15T09:00:00-04:00': 
+{ '2015-10-15T09:00:00-04:00': 
    [ { title: 'Hacking Web Components and Polymer',
        room: 'Room 113' },
      { title: 'Angular Workshop', room: 'Room 106' },
@@ -209,4 +209,4 @@
        room: 'Ballroom ABE' } ],
   '2015-10-17T17:30:00-04:00': [ { title: 'Closing & Prize Giveaways!', room: 'Ballroom ABE' } ],
   '2015-10-17T19:00:00-04:00': [ { title: 'After Party: Downtown ATL!', room: 'Foyer' } ] 
-]
+}
