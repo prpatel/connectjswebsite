@@ -11,19 +11,22 @@ body {
     width: 100%;
     height: 100%;
 }
-
+@font-face {
+  font-family: 'Arenq';
+  src: url('../fonts/Arenq.otf');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-vertical-center {
 
-padding: 50px;
+    padding: 50px;
     text-align: center;
     z-index: 2;
     position: relative;
-
-
 }
 
 .text-vertical-center h1 {
@@ -193,7 +196,13 @@ hr.small {
 
 */
 .logo-trans {
-  background-color: rgba(200, 200, 200, 0.7);
+    
+/*  background-color: rgba(200, 200, 200, 0.7);*/
+    position: relative;
+/*
+  top: 50%;
+  transform: translateY(-50%);
+*/
 }
 
 .black-bar {
@@ -202,16 +211,28 @@ hr.small {
   width: 100%;
 }
 
+.splash-lower {
+    background-color: #f0ba33;
+    font-size: 12px;
+	font-family: AvenirNext-DemiBold;	
+    color: #312d3b;
+    padding: 1px;
+    text-align: center;
+}
+
+#promo {
+    margin-top: 10px
+}
 .register-link {
-  background-color: firebrick;
+    background-color: transparent;
     color: white;
-  width: 93%;
-display: block;
-  margin-left: auto;
-  margin-right: auto;
-    -moz-border-radius: 50px;
-border-radius: 50px;
-     text-align: center;   
+/*    display: block;*/
+    margin:0 auto;
+    border: 3px solid white;
+    text-align: center;   
+    width: 300px;
+    height: 80px;
+	
 }
 
 .register-link a:link {
@@ -220,7 +241,157 @@ border-radius: 50px;
 .register-link a:visited {
     color: white
 }
- 
+
+.register-link-black {
+    color: #312d3b;
+    border: 3px solid #312d3b;
+}
+
+.register-link-black a:link {
+    color: black
+}
+.register-link-black a:visited {
+    color: black
+}
+
+
+
+:root {
+/*  --chevron-height: 90px;*/
+    --chevron-height: calc(40vw/10 );
+}
+
+.chevron-base {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    background: #f0ba33;
+    color: #312d3b;
+/*    line-height: 50px;*/
+    text-decoration: none;
+    margin-bottom: var(--chevron-height);
+    font-family: AvenirNext-Heavy ;
+}
+.chevron-base:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 50%;
+    height: var(--chevron-height);
+    background: linear-gradient(to right bottom, #f0ba33 47%, #f1f3ee 50%);
+    
+}
+
+.chevron-base:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 50%;
+    height: var(--chevron-height);
+    background: linear-gradient(to left bottom, #f0ba33 47%, #f1f3ee 50%)
+}
+
+.black-on-yellow {
+    background: #f0ba33;
+    color: #312d3b;
+}
+
+.black-on-gray {
+    background: #f1f3ee;
+    color: #312d3b;
+}
+
+.black-on-gray:after {
+    background: linear-gradient(to left bottom, #f1f3ee 47%, #fff 50%)
+}
+
+.black-on-gray:before {
+    background: linear-gradient(to right bottom, #f1f3ee 47%, #fff 50%);
+}
+
+.black-on-white {
+    background: #fff;
+    color: #312d3b;
+}
+
+.black-on-white:after {
+    background: linear-gradient(to left bottom, #fff 47%, transparent 50%)
+}
+
+.black-on-white:before {
+    background: linear-gradient(to right bottom, #fff 47%, transparent 50%);
+}
+
+.white-on-trans {
+    background: transparent;
+    color: #fff;
+    font-family: AvenirNext-DemiBold;	
+}
+
+.white-on-trans:after {
+    background: linear-gradient(to left bottom, transparent 47%, #f0ba33 50%)
+}
+
+.white-on-trans:before {
+    background: linear-gradient(to right bottom, transparent 47%, #f0ba33 50%);
+}
+
+.row-centered {
+    text-align:center;
+    
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    margin-right:-4px;
+    
+}
+.chevron {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 6px;
+  height: 50px;
+  color: #312d3b;
+}
+
+.chevron:before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background: #f1f3ee ;
+  -webkit-transform: skew(0deg, 6deg);
+  -moz-transform: skew(0deg, 6deg);
+  -ms-transform: skew(0deg, 6deg);
+  -o-transform: skew(0deg, 6deg);
+  transform: skew(0deg, 6deg);
+}
+.chevron:after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: #f1f3ee ;
+  -webkit-transform: skew(0deg, -6deg);
+  -moz-transform: skew(0deg, -6deg);
+  -ms-transform: skew(0deg, -6deg);
+  -o-transform: skew(0deg, -6deg);
+  transform: skew(0deg, -6deg);
+}
+
 
 .header {
     position: relative;
@@ -228,6 +399,7 @@ border-radius: 50px;
     height: 100%;
 }
 
+/*
 .header:after {
     content: ' ';
     display: block;
@@ -239,18 +411,76 @@ border-radius: 50px;
     z-index: 1;
 
 }
+*/
+/* no-repeat center center; */
 
 body {
-   background: url(../img/bg-2.jpg);
+   background: url(../img/bg-2.png);
     background-repeat: no-repeat;
+        background-position: 50% 0;
     background-blend-mode: color-dodge;
-    background-position: 50% 0;
     -ms-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.h1_home {
+	font-size: 96px;
+	font-family: Arenq;
+/*	letter-spacing: 6px;*/
+    color: #f0ba33;
+    word-wrap: normal;
+    padding: 0px;
+}
+
+.logo-font {
+    	font-family: Arenq;
+    color: white;
+    word-wrap: normal
+}
+
+.logo-font-black {
+    	font-family: Arenq;
+    color: black;
+    word-wrap: normal
+}
+
+.h3_home {
+    font-size: 30px;
+	font-family: AvenirNext-DemiBold;	
+    color: #fafafa   
+}
+
+.h4_home {
+    font-size: 16px;
+	font-family: AvenirNext-DemiBold;	
+    color: #312d3b;
+    margin-bottom: -20px;
+/*    background: green*/
+        
+}
+
+.small_cells {
+     font-size: 16px;
+	font-family: AvenirNext-DemiBold;	
+    color: #312d3b;
+    padding: 10px
+}
+
+.small_text {
+   font-size: 16px;
+	font-family: AvenirNext-DemiBold;	
+    color: #312d3b;
+    padding: 10px 
+}
+
+#sponsors {
+    background: #f0ba33;
+      color: #312d3b;
+    font-family: AvenirNext-DemiBold;
 }
 
 /*
