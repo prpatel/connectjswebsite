@@ -196,8 +196,13 @@ hr.small {
 
 */
 .logo-trans {
-    top: 20%;
-  background-color: rgba(200, 200, 200, 0.7);
+    
+/*  background-color: rgba(200, 200, 200, 0.7);*/
+    position: relative;
+/*
+  top: 50%;
+  transform: translateY(-50%);
+*/
 }
 
 .black-bar {
@@ -236,22 +241,125 @@ hr.small {
 .register-link a:visited {
     color: white
 }
- 
-.bottom-chevron { 
-    width: 1021px;
-	height: 45px;
-	-webkit-transform: rotate(-180deg);
-	transform: rotate(-180deg);
-	background-color: green;
-	
+
+.register-link-black {
+    color: #312d3b;
+    border: 3px solid #312d3b;
 }
 
+.register-link-black a:link {
+    color: black
+}
+.register-link-black a:visited {
+    color: black
+}
+
+
+
+:root {
+/*  --chevron-height: 90px;*/
+    --chevron-height: calc(40vw/10 );
+}
+
+.chevron-base {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    background: #f0ba33;
+    color: #312d3b;
+/*    line-height: 50px;*/
+    text-decoration: none;
+    margin-bottom: var(--chevron-height);
+    font-family: AvenirNext-Heavy ;
+}
+.chevron-base:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 50%;
+    height: var(--chevron-height);
+    background: linear-gradient(to right bottom, #f0ba33 47%, #f1f3ee 50%);
+    
+}
+
+.chevron-base:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 50%;
+    height: var(--chevron-height);
+    background: linear-gradient(to left bottom, #f0ba33 47%, #f1f3ee 50%)
+}
+
+.black-on-yellow {
+    background: #f0ba33;
+    color: #312d3b;
+}
+
+.black-on-gray {
+    background: #f1f3ee;
+    color: #312d3b;
+}
+
+.black-on-gray:after {
+    background: linear-gradient(to left bottom, #f1f3ee 47%, #fff 50%)
+}
+
+.black-on-gray:before {
+    background: linear-gradient(to right bottom, #f1f3ee 47%, #fff 50%);
+}
+
+.black-on-white {
+    background: #fff;
+    color: #312d3b;
+}
+
+.black-on-white:after {
+    background: linear-gradient(to left bottom, #fff 47%, transparent 50%)
+}
+
+.black-on-white:before {
+    background: linear-gradient(to right bottom, #fff 47%, transparent 50%);
+}
+
+.white-on-trans {
+    background: transparent;
+    color: #fff;
+    font-family: AvenirNext-DemiBold;	
+}
+
+.white-on-trans:after {
+    background: linear-gradient(to left bottom, transparent 47%, #f0ba33 50%)
+}
+
+.white-on-trans:before {
+    background: linear-gradient(to right bottom, transparent 47%, #f0ba33 50%);
+}
+
+.row-centered {
+    text-align:center;
+    
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    margin-right:-4px;
+    
+}
 .chevron {
   position: relative;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 6px;
-  height: 250px;
+  height: 50px;
   color: #312d3b;
 }
 
@@ -282,7 +390,7 @@ hr.small {
   -ms-transform: skew(0deg, -6deg);
   -o-transform: skew(0deg, -6deg);
   transform: skew(0deg, -6deg);
-}​
+}
 
 
 .header {
@@ -291,6 +399,7 @@ hr.small {
     height: 100%;
 }
 
+/*
 .header:after {
     content: ' ';
     display: block;
@@ -302,6 +411,7 @@ hr.small {
     z-index: 1;
 
 }
+*/
 /* no-repeat center center; */
 
 body {
@@ -322,6 +432,19 @@ body {
 	font-family: Arenq;
 /*	letter-spacing: 6px;*/
     color: #f0ba33;
+    word-wrap: normal;
+    padding: 0px;
+}
+
+.logo-font {
+    	font-family: Arenq;
+    color: white;
+    word-wrap: normal
+}
+
+.logo-font-black {
+    	font-family: Arenq;
+    color: black;
     word-wrap: normal
 }
 
@@ -329,6 +452,35 @@ body {
     font-size: 30px;
 	font-family: AvenirNext-DemiBold;	
     color: #fafafa   
+}
+
+.h4_home {
+    font-size: 16px;
+	font-family: AvenirNext-DemiBold;	
+    color: #312d3b;
+    margin-bottom: -20px;
+/*    background: green*/
+        
+}
+
+.small_cells {
+     font-size: 16px;
+	font-family: AvenirNext-DemiBold;	
+    color: #312d3b;
+    padding: 10px
+}
+
+.small_text {
+   font-size: 16px;
+	font-family: AvenirNext-DemiBold;	
+    color: #312d3b;
+    padding: 10px 
+}
+
+#sponsors {
+    background: #f0ba33;
+      color: #312d3b;
+    font-family: AvenirNext-DemiBold;
 }
 
 /*
