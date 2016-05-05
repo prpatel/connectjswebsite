@@ -352,8 +352,48 @@ hr.small {
     text-align:center;
     /* inline-block space fix */
     margin-right:-4px;
-    
 }
+
+.panel > .panel-heading {
+    background-image: none;
+    background: #312e3b ;
+    color: white;
+    font-family: AvenirNext-DemiBold;	
+}
+
+.panel > .panel-body {
+    background-image: none;
+    background: white;
+    color: #312d3b;
+    font-family: AvenirNext-Regular ;	
+}
+
+.left-text {
+    text-align: left;
+}
+.right-text {
+   float:right;
+}
+
+.buy-button {
+	width: 150px;
+	height: 56px;
+	background-color: #ffc62e;
+	color: #262626;  
+}
+
+.buy-button-text { 
+    font-family: AvenirNext-Heavy;
+	font-size: 18px;    
+    color: #262626;  
+    position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
 .chevron {
   position: relative;
   text-align: center;
@@ -397,6 +437,12 @@ hr.small {
     position: relative;
     overflow: hidden;
     height: 100%;
+}
+
+.header-half {
+    position: relative;
+    overflow: hidden;
+    height: 50%;
 }
 
 /*
@@ -461,6 +507,12 @@ body {
     margin-bottom: -20px;
 /*    background: green*/
         
+}
+
+.h4_home_white {
+    font-size: 16;
+	font-family: AvenirNext-DemiBold;	
+    color: #fafafa   
 }
 
 .small_cells {
