@@ -345,6 +345,10 @@ hr.small {
     text-align:center;
     
 }
+
+.greyed-out {
+    opacity: 0.2;
+}
 .col-centered {
     display:inline-block;
     float:none;
@@ -393,6 +397,12 @@ hr.small {
   transform: translateY(-50%);
 }
 
+
+.vcenter {
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+}
 
 .chevron {
   position: relative;
