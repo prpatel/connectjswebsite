@@ -320,11 +320,24 @@ hr.small {
 }
 
 .black-on-white:after {
-    background: linear-gradient(to left bottom, #fff 47%, transparent 50%)
+    background: linear-gradient(to left bottom, #fff 47%, #f0ba33 50%)
 }
 
 .black-on-white:before {
-    background: linear-gradient(to right bottom, #fff 47%, transparent 50%);
+    background: linear-gradient(to right bottom, #fff 47%, #f0ba33 50%);
+}
+
+.black-on-yellow-mid {
+    background: #f0ba33;
+    color: #312d3b;
+}
+
+.black-on-yellow-mid:after {
+    background: linear-gradient(to left bottom, #f0ba33 47%, # 50%)
+}
+
+.black-on-yellow-mid:before {
+    background: linear-gradient(to right bottom, #f0ba33 47%, #f1f3ee 50%);
 }
 
 .white-on-trans {
@@ -363,6 +376,8 @@ hr.small {
     background: #312e3b ;
     color: white;
     font-family: AvenirNext-DemiBold;	
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .panel > .panel-body {
@@ -670,7 +685,13 @@ body {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding: 0 0;
+    background-color:  #403c49;
+}
+
+.footer-main-text {
+    font-family: AvenirNext-DemiBold;
+    color: #fff
 }
 
 .cfp-link {
