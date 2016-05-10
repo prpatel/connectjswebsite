@@ -560,6 +560,11 @@ body {
     font-family: AvenirNext-DemiBold;
 }
 
+#register > .panel.col-xs-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /*
 body {
 
