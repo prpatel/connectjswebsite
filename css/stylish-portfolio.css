@@ -377,7 +377,7 @@ hr.small {
     color: white;
     font-family: AvenirNext-DemiBold;	
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .panel > .panel-body {
@@ -392,6 +392,7 @@ hr.small {
 }
 .right-text {
    float:right;
+    font-style: italic;
 }
 
 .buy-button {
