@@ -380,6 +380,15 @@ hr.small {
     padding-bottom: 30px;
 }
 
+.panel > .panel-heading-small {
+    background-image: none;
+    background: #312e3b ;
+    color: white;
+    font-family: AvenirNext-DemiBold;	
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
 .panel > .panel-body {
     background-image: none;
     background: white;
@@ -387,6 +396,23 @@ hr.small {
     font-family: AvenirNext-Regular ;	
 }
 
+.panel-body-session {
+     background-image: none;
+    background: white;
+    color: #312d3b;
+    font-family: AvenirNext-Regular ;	
+}
+
+.panel-body-session-nobg {
+    background-image: none;
+    color: #312d3b;
+    font-family: AvenirNext-Regular ;	
+}
+
+.panel-fixed-height {
+    
+    height: 625px;
+}
 .left-text {
     text-align: left;
 }
@@ -819,5 +845,16 @@ pre {
 }
 
 .speaker-list {
-    height: 250px
+    height: 250px;
+}
+
+.row-no-padding {
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.panel-title-yellow {
+    color: #f0ba33
 }
