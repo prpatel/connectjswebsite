@@ -411,8 +411,19 @@ hr.small {
 
 .panel-fixed-height {
     
-    height: 700px;
+    height: 750px;
 }
+
+
+.session-heading-small {
+    background-image: none;
+    background: #312e3b ;
+    color: white;
+    font-family: AvenirNext-DemiBold;	
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
 .left-text {
     text-align: left;
 }
