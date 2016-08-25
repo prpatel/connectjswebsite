@@ -773,7 +773,8 @@ pre {
 
 .row-header {
      background-color: #f0ba33;
-    color: black;
+     color: black;
+     margin-top: -20px;
 }
 
 .schedule-row {
