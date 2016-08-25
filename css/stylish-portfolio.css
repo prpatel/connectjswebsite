@@ -772,7 +772,8 @@ pre {
 }
 
 .row-header {
-    
+     background-color: #f0ba33;
+    color: black;
 }
 
 .schedule-row {
@@ -784,14 +785,15 @@ pre {
 }
 
 .schedule-odd {
-    color: black;
-    font-size: 1.5em
-        
+    color: #262626;
+    font-size: 1.0em;
+    background-color: white;
 }
 
 .schedule-even {
     color: black;
-    font-size: 1.5em
+    font-size: 1.0em;
+    background-color: #f1f3ee;
 }
 
 .speaker-image {
