@@ -14,7 +14,7 @@ body {
 }
 @font-face {
   font-family: 'Arenq';
-  src: url('../fonts/Arenq.ttf');
+  src: url('../fonts/Arenq.ttf') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
