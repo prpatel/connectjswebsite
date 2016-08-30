@@ -5,6 +5,7 @@
  */
 
 /* Global Styles */
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,600i,700,700i,900);
 
 html,
 body {
@@ -21,6 +22,16 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+h1 {
+    font-family: 'Titillium Web', sans-serif; font-weight:900;
+}
+h2 {
+    font-family: 'Titillium Web', sans-serif; font-weight:700;
+}
+
+h3 {
+    font-family: 'Titillium Web', sans-serif; font-weight:700;
+}
 .text-vertical-center {
 
     padding: 50px;
@@ -214,7 +225,7 @@ hr.small {
 .splash-lower {
     background-color: #f0ba33;
     font-size: 12px;
-	font-family: AvenirNext-DemiBold;	
+	font-family: 'Titillium Web', sans-serif; font-weight:700;
     color: #312d3b;
     padding: 1px;
     text-align: center;
@@ -273,7 +284,8 @@ hr.small {
 /*    line-height: 50px;*/
     text-decoration: none;
     margin-bottom: var(--chevron-height);
-    font-family: AvenirNext-Heavy ;
+    font-family: 'Titillium Web', sans-serif; 
+    font-weight:700;
 }
 .chevron-base:before {
     content: "";
@@ -343,7 +355,7 @@ hr.small {
 .white-on-trans {
     background: transparent;
     color: #fff;
-    font-family: AvenirNext-DemiBold;	
+    font-family: 'Titillium Web', sans-serif; font-weight:700;
 }
 
 .white-on-trans:after {
@@ -375,7 +387,7 @@ hr.small {
     background-image: none;
     background: #312e3b ;
     color: white;
-    font-family: AvenirNext-DemiBold;	
+    font-family: 'Titillium Web', sans-serif; font-weight:700;
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -384,7 +396,7 @@ hr.small {
     background-image: none;
     background: #312e3b ;
     color: white;
-    font-family: AvenirNext-DemiBold;	
+    font-family: 'Titillium Web', sans-serif; font-weight:700;
     padding-top: 10px;
     padding-bottom: 15px;
 }
@@ -393,20 +405,20 @@ hr.small {
     background-image: none;
     background: white;
     color: #312d3b;
-    font-family: AvenirNext-Regular ;	
+   font-family: 'Titillium Web', sans-serif; font-weight:500;
 }
 
 .panel-body-session {
      background-image: none;
     background: white;
     color: #312d3b;
-    font-family: AvenirNext-Regular ;	
+   font-family: 'Titillium Web', sans-serif; font-weight:500;
 }
 
 .panel-body-session-nobg {
     background-image: none;
     color: #312d3b;
-    font-family: AvenirNext-Regular ;	
+   font-family: 'Titillium Web', sans-serif; font-weight:500;
 }
 
 .panel-fixed-height {
@@ -419,7 +431,7 @@ hr.small {
     background-image: none;
     background: #312e3b ;
     color: white;
-    font-family: AvenirNext-DemiBold;	
+    font-family: 'Titillium Web', sans-serif; font-weight:700;
     padding-top: 10px;
     padding-bottom: 15px;
 }
@@ -546,7 +558,7 @@ body {
 }
 
 .logo-font {
-    	font-family: Arenq;
+    font-family: Arenq;
     color: white;
     word-wrap: normal
 }
@@ -559,13 +571,13 @@ body {
 
 .h3_home {
     font-size: 30px;
-	font-family: AvenirNext-DemiBold;	
+	font-family: 'Titillium Web', sans-serif; font-weight:700;
     color: #fafafa   
 }
 
 .h4_home {
     font-size: 16px;
-	font-family: AvenirNext-DemiBold;	
+	font-family: 'Titillium Web', sans-serif; font-weight:700;
     color: #312d3b;
     margin-bottom: -20px;
 /*    background: green*/
@@ -574,20 +586,20 @@ body {
 
 .h4_home_white {
     font-size: 16;
-	font-family: AvenirNext-DemiBold;	
+	font-family: 'Titillium Web', sans-serif; font-weight:700;
     color: #fafafa   
 }
 
 .small_cells {
      font-size: 16px;
-	font-family: AvenirNext-DemiBold;	
+	font-family: 'Titillium Web', sans-serif; font-weight:700;
     color: #312d3b;
     padding: 10px
 }
 
 .small_text {
    font-size: 16px;
-	font-family: AvenirNext-DemiBold;	
+	font-family: 'Titillium Web', sans-serif; font-weight:700;
     color: #312d3b;
     padding: 10px 
 }
