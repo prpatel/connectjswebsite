@@ -458,7 +458,7 @@ hr.small {
 }
 
 .buy-button-text { 
-    font-family: AvenirNext-Heavy;
+    font-family: 'Titillium Web', sans-serif; font-weight:700;
 	font-size: 18px;    
     color: #262626;  
     position: relative;
@@ -613,7 +613,7 @@ body {
 #sponsors {
     background: #f0ba33;
       color: #312d3b;
-    font-family: AvenirNext-DemiBold;
+    font-family: 'Titillium Web', sans-serif; font-weight:700;
 }
 
 #register > .panel.col-xs-6 {
@@ -751,7 +751,7 @@ footer {
 }
 
 .footer-main-text {
-    font-family: AvenirNext-DemiBold;
+    font-family: 'Titillium Web', sans-serif; font-weight:700;
     color: #fff
 }
 
@@ -863,14 +863,14 @@ pre {
 }
 
 .first-name-last-name-copy {
-	font-family: AvenirNext-Bold;
+	font-family: 'Titillium Web', sans-serif; font-weight:700;
 	font-size: 18px;
 	color: #312e3b;
 	color: var(--charcoal-grey);
 }
 
 .session-style {
-	font-family: AvenirNext;
+	font-family: 'Titillium Web', sans-serif; font-weight:700;
 	font-size: 14px;
 	color: #312e3b;
 	color: var(--charcoal-grey);
