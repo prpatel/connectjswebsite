@@ -387,6 +387,9 @@ hr.small {
     text-align:center;
     /* inline-block space fix */
     margin-right:-4px;
+    vertical-align: top;
+
+
 }
 
 .panel > .panel-heading {
