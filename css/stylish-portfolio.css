@@ -546,7 +546,7 @@ hr.small {
 
 
 body {
-   background: url(../img/atl-greyscale.png);
+   background: url(../img/atl-skyline-color.jpg);
     background-repeat: no-repeat;
         background-position: 50% 0;
     background-blend-mode: color-dodge;
@@ -582,7 +582,7 @@ body {
 .h3_home {
     font-size: 30px;
 	font-family: 'Titillium Web', sans-serif; font-weight:700;
-    color: #fafafa   
+    color: #fafafa
 }
 
 .h4_home {
