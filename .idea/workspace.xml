@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59c44f5c-6a7a-4d99-b498-f4f489d60246" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workshop.html" afterPath="$PROJECT_DIR$/workshop.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -167,8 +166,8 @@
       <file leaf-file-name="workshop.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/workshop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="848">
-              <caret line="279" column="39" lean-forward="true" selection-start-line="279" selection-start-column="39" selection-end-line="279" selection-end-column="39" />
+            <state relative-caret-position="724">
+              <caret line="143" column="60" lean-forward="false" selection-start-line="143" selection-start-column="60" selection-end-line="143" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -235,6 +234,7 @@
       <find>works</find>
       <find>regis</find>
       <find>jeremy</find>
+      <find>Visual Studio Code</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1023,12 +1023,12 @@
       <workItem from="1504079363971" duration="2993000" />
       <workItem from="1504363888915" duration="1595000" />
       <workItem from="1505086820348" duration="560000" />
-      <workItem from="1505223380838" duration="1763000" />
+      <workItem from="1505223380838" duration="2713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62535000" />
+    <option name="totallyTimeSpent" value="63485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1838" height="1417" extended-state="0" />
@@ -1638,8 +1638,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/workshop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
-          <caret line="279" column="39" lean-forward="true" selection-start-line="279" selection-start-column="39" selection-end-line="279" selection-end-column="39" />
+        <state relative-caret-position="724">
+          <caret line="143" column="60" lean-forward="false" selection-start-line="143" selection-start-column="60" selection-end-line="143" selection-end-column="60" />
           <folding />
         </state>
       </provider>
