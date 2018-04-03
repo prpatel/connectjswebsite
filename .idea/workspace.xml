@@ -2,197 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59c44f5c-6a7a-4d99-b498-f4f489d60246" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/Gemfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/Gemfile.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/cfp.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/conduct.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/config.codekit" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/convince.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/css/bootstrap-theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/css/bootstrap-theme.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/css/bootstrap-theme.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/css/bootstrap-theme.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/css/bootstrap.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/css/stylish-portfolio.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/css/font-awesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/less/bordered-pulled.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/less/core.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/less/fixed-width.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/less/font-awesome.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/less/icons.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/less/larger.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/less/list.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/less/mixins.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/less/path.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/less/rotated-flipped.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/less/spinning.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/less/stacked.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/less/variables.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/scss/_bordered-pulled.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/scss/_core.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/scss/_fixed-width.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/scss/_icons.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/scss/_larger.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/scss/_list.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/scss/_mixins.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/scss/_path.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/scss/_rotated-flipped.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/scss/_spinning.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/scss/_stacked.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/scss/_variables.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/font-awesome/scss/font-awesome.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/fonts/Arenq.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/fonts/Arenq.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/fonts/Arenq.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/fonts/arenq-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/fonts/arenq-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/AtlantaPHP_LogoWordPress.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/CobbGalleriaFloorplan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/LarryGarfield.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/ReactATL.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/ShootProof_logo_black_1000x199.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/agencyspotter.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/appc.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/atl-greyscale.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/atl-js.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/atl-skyline-color.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/atlangular.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/atlanta-city-night.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/atlember.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/atlmodev.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/awdg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/basecamp.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/ben_vinegar.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/bg-2 copy.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/bg-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/bg-2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/bg-2.xcf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/bg-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/bnr-logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/ca_technologies.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/callout.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/cfp1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/cfp2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/cfp3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/cfp4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/cjs-hero-bkp.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/cjs-hero-gray.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/cjs2015-speakers-bw.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/cjs2015-speakers.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/clusterpoint.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/cox.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/dolby.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/events-image.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/events-image@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/events-image@3x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/firefox.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/formio.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/hired-logo-dark.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/hired-logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/homedepot.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/html5-atlanta.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/hunter.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/hype.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/ivision.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/jctlogo.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/jordan_bw.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/kylesimpson.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/look-listen.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/macstadium.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/mandrill.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/map.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/microsoft.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/mozilla.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/mozilla.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/newrelic.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/northatljs.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/pardot.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/patientco-logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/platino.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/portfolio-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/portfolio-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/portfolio-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/portfolio-4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/progress.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/rabbi.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/salesloft.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/sencha.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/sentry.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/sheraton.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/slalom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/stablekernel.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/stickermule.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/strongloop.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/sturgeon.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/syncano.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/telerik.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/telesign.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/thompson-technologies.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/thompson.eps" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/thompson.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/turner.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/witatl.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/img/wwcatl.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/index-new.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/js/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/js/npm.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/partials/_about-section.kit" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/partials/_code-of-conduct.kit" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/partials/_hero-unit.kit" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/partials/_location-section.kit" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/partials/_navigation.kit" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/partials/_newsletter-section.kit" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/partials/_privacy-policy.kit" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/partials/_register-section.kit" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/partials/_schedule-section.kit" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/partials/_speaker-bios.kit" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/partials/_speakers-section.kit" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/partials/_sponsors-section.kit" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/partials/_tagline.kit" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/privacy.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/raffle/images/DevNexus_logo_large.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/raffle/images/cjs.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/raffle/images/reactjs.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/raffle/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/raffle/js/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/raffle/js/app.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/raffle/styles/main.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/raffle/styles/main.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/register.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/schedule.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/scheduleWall.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/speakers.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2017/workshop.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CONNECT-TECH-sponsorship-2016.pdf" afterPath="" />
       <change beforePath="$PROJECT_DIR$/cfp.html" afterPath="$PROJECT_DIR$/cfp.html" />
-      <change beforePath="$PROJECT_DIR$/convince.html" afterPath="$PROJECT_DIR$/convince.html" />
-      <change beforePath="$PROJECT_DIR$/img/cfp1.png" afterPath="$PROJECT_DIR$/img/cfp1.png" />
-      <change beforePath="$PROJECT_DIR$/img/cfp2.png" afterPath="$PROJECT_DIR$/img/cfp2.png" />
-      <change beforePath="$PROJECT_DIR$/img/cfp3.png" afterPath="$PROJECT_DIR$/img/cfp3.png" />
-      <change beforePath="$PROJECT_DIR$/img/cfp4.png" afterPath="$PROJECT_DIR$/img/cfp4.png" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -209,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
@@ -354,11 +164,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cfp.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cfp.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cfp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2658">
-              <caret line="132" column="40" lean-forward="true" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
+            <state relative-caret-position="308">
+              <caret line="96" column="69" lean-forward="false" selection-start-line="96" selection-start-column="69" selection-end-line="96" selection-end-column="69" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#h1#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#4;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -729,7 +539,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>call</find>
       <find>register-link</find>
       <find>110 in</find>
       <find>schedule</find>
@@ -757,13 +566,14 @@
       <find>fifth</find>
       <find>twitter</find>
       <find>eventb</find>
-      <find>2017 conf</find>
       <find>yellow</find>
+      <find>may 15</find>
+      <find>2017 conf</find>
     </findStrings>
     <replaceStrings>
       <replace>2018</replace>
-      <replace>https://tickets.connectevents.io/events/CT2018/</replace>
       <replace>https://cfp.connectevents.io/</replace>
+      <replace>https://tickets.connectevents.io/events/CT2018/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -783,9 +593,9 @@
         <option value="$PROJECT_DIR$/speakers.html" />
         <option value="$PROJECT_DIR$/workshop.html" />
         <option value="$PROJECT_DIR$/2017/index.html" />
-        <option value="$PROJECT_DIR$/cfp.html" />
         <option value="$PROJECT_DIR$/convince.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/cfp.html" />
       </list>
     </option>
   </component>
@@ -1573,12 +1383,12 @@
       <workItem from="1504363888915" duration="1595000" />
       <workItem from="1505086820348" duration="560000" />
       <workItem from="1505223380838" duration="4948000" />
-      <workItem from="1522767367995" duration="7751000" />
+      <workItem from="1522767367995" duration="8024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73471000" />
+    <option name="totallyTimeSpent" value="73744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
@@ -1596,8 +1406,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13984375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13984375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1611,7 +1422,6 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2612,18 +2422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cfp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2658">
-          <caret line="132" column="40" lean-forward="true" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#h1#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#4;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h1#4;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/convince.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="766">
@@ -2657,6 +2455,18 @@
             <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#div#1;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#4;n#div#1;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1522787559184" expanded="false" signature="18571:18584" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cfp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="96" column="69" lean-forward="false" selection-start-line="96" selection-start-column="69" selection-end-line="96" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#h1#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#4;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h1#4;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
