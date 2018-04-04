@@ -289,6 +289,13 @@ hr.small {
     --chevron-height: calc(40vw/10);
 }
 
+.full-width {
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+}
+
 .chevron-base {
     position: relative;
     display: inline-block;
