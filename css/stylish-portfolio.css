@@ -933,3 +933,9 @@ pre {
 .panel-title-yellow {
     color: #f0ba33
 }
+
+.centered-row {
+    float: none;
+    margin: 0 auto;
+
+}
