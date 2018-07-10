@@ -453,7 +453,7 @@ hr.small {
 }
 
 .panel-fixed-height {
-    height: 750px;
+    /*height: 750px;*/
 }
 
 .session-heading-small {
@@ -917,6 +917,7 @@ pre {
     font-size: 14px;
     color: #312e3b;
     color: var(--charcoal-grey);
+    height: 10px;
 }
 
 .speaker-list {
@@ -931,11 +932,16 @@ pre {
 }
 
 .panel-title-yellow {
-    color: #f0ba33
+    color: #f0ba33;
 }
 
 .centered-row {
     float: none;
     margin: 0 auto;
 
+}
+
+.panel-title {
+    font-size: 32px;
+    margin-top: 10px;
 }
