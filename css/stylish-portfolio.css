@@ -888,6 +888,11 @@ pre {
     transition: all 0.2s ease;
 }
 
+.speaker-image-sm {
+    width: 75px;
+    height: 75px;
+}
+
 .speaker-image:hover {
     border-color: #EEE;
 }
@@ -945,4 +950,31 @@ pre {
 .panel-title {
     font-size: 32px;
     margin-top: 10px;
+}
+
+.session-style {
+    height: 20px;
+}
+
+.session-style, .ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.speaker-tile {
+    margin-top: 20px;
+}
+
+.modal-content {
+    padding: 5px 10px 35px;
+}
+
+.session-style a {
+    font-size: 110%;
+}
+
+.speaker-promo-list {
+    margin-top: 25px;
 }
