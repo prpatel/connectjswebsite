@@ -1,6 +1,6 @@
 function SessionPopulator(sessionInfo, $parentObj) {
   if (!sessionInfo.speaker.avatar) {
-    sessionInfo.speaker.avatar = 'http://lorempixel.com/200/200/people'
+    sessionInfo.speaker.avatar = 'https://upload.wikimedia.org/wikipedia/commons/e/e4/Elliot_Grieveson.png';
   }
 
   var removeSpecialChars = function(str) {

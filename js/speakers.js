@@ -575,6 +575,16 @@ var sessions = {
     },
     {
       speaker: {
+        name: 'Brandon Kearns',
+        bio: 'Brandon Kearns. Brandon is a Staff Software Engineer on The Home Depot\'s Orange Method team where he builds and delivers educational experiences to The Home Depot associates. Brandon holds a Bachelor of Arts in Political Science and Hispanic Studies and learned to write web applications at General Assembly. He has made it his mission to imbue as many people as have the desire with the skills (and confidence) to transform their lives - no matter their background - through technology.',
+        twitterUrl: 'https://twitter.com/brandon_kearns',
+        avatar: 'https://cfp.connectevents.io//system/avatars/1368/large/brandon.jpg?1531849442'
+      },
+      sessionName: 'GatsbyJS in Practice',
+      description: 'GatsbyJS implements many of the best practices of modern web development all while providing a quick to load and render static-site. Let\'s look at an example of using GatsbyJS for your personal website and talk about how it is used across the industry for presenting content in innovative ways.'
+    },
+    {
+      speaker: {
         name: 'Taggart Bowen-Gaddy',
         bio: 'Taggart is proud to work with the folks at Thesis.co building Fold, a platform to help you spend your crypto in the real world.  He loves Atlanta and organizes our local React meetup, ReactATL.',
         twitterUrl: 'https://twitter.com/taggartbg',
@@ -1100,6 +1110,26 @@ var sessions = {
   ],
 
   advanced: [
+    {
+      speaker: {
+        name: 'Jeremy Likness',
+        bio: 'Jeremy is a Cloud Developer Advocate for Azure at Microsoft. Jeremy wrote his first program in 1982, was recognized in the "who\'s who in Quake" list for programming the first implementation of "Midnight Capture the Flag" in Quake C and has been developing enterprise applications for 25 years with a primary focus on web-based delivery of line of business applications. Jeremy is the author of four technology books, a former 8-year Microsoft MVP for Developer Tools and Technologies, is an international speaker and writes regularly on cloud and container development. Jeremy follows a 100% plant-based diet and spends most of his free time running, hiking and camping, and playing 9-ball and one pocket.',
+        twitterUrl: 'https://twitter.com/JeremyLikness',
+        avatar: 'https://cfp.connectevents.io//system/avatars/1254/large/profile1_sm.jpg?1526301654'
+      },
+      sessionName: 'Three D\'s of Modern Web Development',
+      description: 'Modern JavaScript developers are faced with more framework and library choices every day. Should you choose Angular? React? VueJs? To make better choices, a fundamental understanding of the advantages these frameworks provide is important. In this session, learn about the three keys to modern web development: declarative programming, dependency injection, and data-binding.'
+    },
+    {
+      speaker: {
+        name: 'Jeremy Likness',
+        bio: 'Jeremy is a Cloud Developer Advocate for Azure at Microsoft. Jeremy wrote his first program in 1982, was recognized in the "who\'s who in Quake" list for programming the first implementation of "Midnight Capture the Flag" in Quake C and has been developing enterprise applications for 25 years with a primary focus on web-based delivery of line of business applications. Jeremy is the author of four technology books, a former 8-year Microsoft MVP for Developer Tools and Technologies, is an international speaker and writes regularly on cloud and container development. Jeremy follows a 100% plant-based diet and spends most of his free time running, hiking and camping, and playing 9-ball and one pocket.',
+        twitterUrl: 'https://twitter.com/JeremyLikness',
+        avatar: 'https://cfp.connectevents.io//system/avatars/1254/large/profile1_sm.jpg?1526301654'
+      },
+      sessionName: 'TypeScript by Transformation',
+      description: 'TypeScript is a superset of JavaScript that provides type safety, interfaces, an object-oriented class implementation and advanced features like generics and decorators. This session teaches TypeScript by starting with a 100% pure JavaScript application and then migrating and refactoring it live to end up with a TypeScript solution.'
+    },
     {
       speaker: {
         name: 'Minko Gechev',
