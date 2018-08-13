@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Connect.Tech 2018 Meetup Raffle</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    
+       <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top">Connect.Tech 2018</a>
+            </li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="2014/">2014 Connect.JS</a>
+            </li>
+            <li>
+                <a href="2015/">2015 Connect.JS</a>
+            </li>
+            <li>
+                <a href="2016/">2016 Connect.JS</a>
+            </li>
+            <li>
+                <a href="2017/">2017 Connect.JS</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <header id="top" class="header">
+
+
+        <div class="text-vertical-center">
+            <div class="logo-trans">
+                <br/>            
+                <br/>
+                <a href="/"><h1 class="h1_home">CONNECT . TECH</h1></a>
+                <h3 class="h3_home">THE SOUTHEAST’S PREMIERE </h3>
+                <h3 class="h3_home"> FRONT-END CONFERENCE </h3>
+                <h3 class="h3_home">
+                COBB GALLERIA • ATLANTA
+                </h3>
+                <h3 class="h3_home">
+                    October 17-19, 2018
+                </h3>
+                <br/>                                           
+                <br/>            
+                <br/>
+                <h1 class="h3_home">
+                Enter to win a free ticket!
+                </h1>
+                <h1><a href="https://connectevents.typeform.com/to/uPgoOS">CLICK HERE TO ENTER</a></h1>
+                <br/>            
+                <br/>            
+            </div>            
+        </div>
+      
+    </header>
+
+
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Interested in Sponsoring?</h3>
+                    <h3>Email us at hello@connect.tech!</h3>
+                </div>
+            </div>
+        </div>
+    </aside>
+ 
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h3><strong><a href="/">Back to Connect.Tech 2018 Homepage</a></strong>
+                    </h3>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:hello@connect-js.com">hello@connect-js.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="http://twitter.com/connect_js"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Connect.Tech 2018</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+        
+        function showLink() {
+            console.log('show link');
+            $('#cfplink').css({color:'#fff', display:'block'});
+        }
+    </script>
+
+</body>
+
+</html>
