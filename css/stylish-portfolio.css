@@ -937,9 +937,14 @@ pre {
 }
 
 .centered-row {
-    float: none;
+    display: block;
     margin: 0 auto;
+}
 
+
+.centered-row-single {
+    float: none;
+    margin: auto;
 }
 
 .panel-title {
